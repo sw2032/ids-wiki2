@@ -1,0 +1,34 @@
+===== Responses - Web Frontend =====
+
+The Responses tab allows you to
+  * View the data you have contributed
+  * Change the privacy state of the data you have contributed (e.g. share data that has been uploaded with a default state of "private")
+  * Delete data you have contributed
+  * View shared data contributed by other users of the campaign
+
+When you click on the tab, you will be brought to a page that looks like this:
+
+{{ :app:web:responses1.png?direct&700 |}}
+
+Notice that there are two states listed near the top left of the tab: Browse Responses and Edit Responses. If Browse Responses is selected, you can browse through all the data, and if Edit Responses is selected you can edit responses. For [[:app:web:usertypes|analysts]], the Browse Responses state will only allow them to see data that has been shared by other participants, or their own private data. However, for a [[:app:web:usertypes|supervisor]], it will show all the data, whether or not it has been shared. The same is true for the Edit Responses state: analysts will only see their own responses, but supervisors can see and edit the responses of all participants.
+
+====View Responses====
+
+In order to see any data, you must make some selections from the dropdown menus on the left. For example, we can simply choose a campaign and leave all the other defaults intact. After clicking "Show Responses" under the dropdowns, a screen something like this will appear:
+
+{{ :app:web:responses2.png?direct&700 |}}
+
+Notice that the first few responses are marked as private. This user is a supervisor, so they can see private responses. The selection of responses can be modified by using additional dropdown menus or adding a date range, then clicking Show Responses again. The default state here is "expanded," meaning that the complete response is visible (the picture, the text, etc). This is useful for reviewing the data. But, you can also toggle to a collapsed format, by clicking "collapse"
+
+{{ :app:web:responses3.png?direct&700 |}}
+
+This view is more like a spreadsheet.
+
+====Edit Responses====
+From here, if we switched to the Edit Responses state, the screen would change to look like this:
+
+{{ :app:web:responses4.png?direct&700 |}}
+
+The responses listed are the same, but now there is a checkbox next to each response, and a variety of buttons with options along the top. As a supervisor, you can Share, Make Private or Delete any response. Analysts can do the same for any of their own data.
+
+In order to see more data, use the arrows in the top center of the page, or adjust the number of results that are displayed at the top right.

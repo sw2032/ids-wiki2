@@ -1,0 +1,68 @@
+====== Finding things out about data ======
+
+
+==== Sorting and ordering ====
+
+Because R is a statistical programming language, not a spreadsheet program like Excel, it isn’t as natural to sort a data set. If you think about it, why do we like sorting datasets? Well, it allows us to know the maximum and minimum value of a variable. But, ''summary()'' will tell us the maximum and minimum values. Sorting also allows us to scroll through and see the distribution of values, but it’s hard to hold enough information in our head to really grasp the distribution from scrolling (people can usually only remember 7 numbers at once, which is why we have 7-digit phone numbers!). A better way to see a distribution of values would be making a histogram, ''hist()''.\\
+
+With that said, if you want to sort your dataset, there is a way to do it. We use the ''order()'' command. But, if we use the command alone, it doesn’t give us what we want: 
+<code r>
+order(labike$bike_count_pm)
+</code>
+{{:rstudio:order_labike_bike_count_pm_.png?direct|}}
+
+What are these values? Well, look through the data in the viewing pane– what row has the smallest number in the ''bike_count_pm'' column? It’s a tie between row ''[21]'' and row ''[30]'', which both have 35 in that column. Notice that the first two numbers that R printed out were 21 and 30, so it’s just giving us the list of indices, ordered by the values in ''bike_count_pm''.\\ 
+
+So to get the results we really want, we need to apply it to the dataset
+<code r> 
+labike[order(labike$bike_count_pm),]
+</code> 
+{{ :rstudio:orderprintout.jpg?direct&700 |ordering part 1}}
+{{ :rstudio:orderprintout2.jpg?direct&700 |ordering part 2}}
+
+This is what we wanted, right? Our Console window isn’t wide enough to see all the columns at once, so R is printing out the last two columns after the rest of the dataset, but we can see that the data is sorted by bike_count_pm.\\ 
+
+But, this is just printing the values out in the Console window. If you look up at your file-viewing pane, the labike data has not changed order. Again, this is because R is a programming language, not a spreadsheet program. If we want the data in the viewing pane to change, we need to save over the old version of labike, like so
+<code r>
+labike = labike[order(labike$bike_count_pm), ]
+</code>
+
+==== Descriptive statistics====
+We’ve discussed summary() before, if you run this on a numeric variable you get a fair number of descriptive statistics.\\ 
+<code r>
+summary(cdc$weight)
+##	Min. 1st Qu. Median	Mean 3rd Qu.	Max.	NA s 
+##	34.5	56.7	65.3	68.6	77.1	181.0	979
+</code>
+
+But if you want specific descriptive statistics, they also have their own separate functions that are called just what you would expect
+<code r>
+mean(cdc$weight, na.rm = TRUE) 
+
+## [1] 68.55 
+
+median(cdc$weight, na.rm = TRUE) 
+
+## [1] 65.32
+
+min(cdc$weight, na.rm = TRUE) 
+
+## [1] 34.47 
+
+max(cdc$weight, na.rm = TRUE) 
+
+## [1] 181
+</code>
+
+Notice the only tricky thing here– including na.rm=TRUE. If you don’t include that option, all these functions will return NA, because they are trying to compute a number and are encountering NA values. By passing na.rm=TRUE, you are telling the function to remove na values, thus na.rm.\\ 
+
+This is true for a number of other descriptive statistics functions,
+<code r>
+median(cdc$weight, na.rm = TRUE)
+## [1] 65.32
+min(cdc$weight, na.rm = TRUE)
+25
+## [1] 34.47
+max(cdc$weight, na.rm = TRUE)
+## [1] 181
+</code>

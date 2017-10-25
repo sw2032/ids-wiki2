@@ -1,0 +1,15 @@
+====== Scatter Plot ======
+
+A scatter plot generally displays the values of two different numeric variables. It can be used to spot relationships between variables. Lets look at an example:
+
+<code r>
+plot(labike$bike_count_pm, labike$ped_count_pm)
+</code>
+
+{{ :rstudio:plot3.jpg?direct&400 |Plot 3}}
+
+This scatterplot shows counts of bikes and pedestrians at specific intersections in Los Angeles. If we look at the data, 
+
+{{ :rstudio:labikehead.png?direct&500 |La Bike Data}}
+
+we can see that the third row has 216 for the ''bike_count_pm'' and 1979 for the ''ped_count_pm''. If we look at the plot, we can count over a little more than 200 on the x-axis and look up around 2000 on the y axis, and see the point that corresponds to that row in the dataset. Each row in the dataset has its own point on the plot, and we can see that there might be a general upward trend (that is, as you see more bikes in a particular intersection, you also see more pedestrians). 

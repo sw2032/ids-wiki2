@@ -1,0 +1,44 @@
+===== RStudio® =====
+==== What is RStudio®? ====
+[[http://www.rstudio.com/|RStudio®]] is an "Interactive Development Environment" (or IDE for short) that supports R programming. For more on IDEs, check out this [[wp>Integrated_development_environment|Wikipedia article]]. Basically,  RStudio® makes it easier to keep track of files, type code, view images, and many other handy things. 
+==== What is R? ====
+[[http://www.r-project.org/|R]] is a statistical programming language that is free and open source. It's used by more than 250,000 people worldwide, and if you want to read more about it, check out this [[http://www.nytimes.com/2009/01/07/technology/business-computing/07program.html|New York Times article from 2009]]. 
+
+Everything that we're doing in the curriculum could be completed using just the R language by itself, but we're going to focus specifically on using R within RStudio®.
+
+==== About This Guide ====
+The preliminary sections in this guide will be to get you started in RStudio®– how to open the program, load in data, and understand the various panes that divide the page. Topics will be covered in roughly the order they are mentioned in the curriculum.\\ 
+
+The majority of this guide will be largely concerned with short code snippets, showing code in a format like this
+<code r>
+x <- 1:10
+y <- 3*x - 4
+mean(y)
+</code>
+<code r>
+[1] 12.5
+</code>
+When you see this type of formatting, you can know that the top section was run in the Console (see [[rstudio:panes|Panes in RStudio]] for more information about the Console), and the results are shown on the lines designated by ##. Most times that something is shown with button clicking in the RStudio® interface, corresponding R code will be shown in this same format.
+
+
+==== Opening RStudio® ====
+While RStudio® can be run as a desktop application, we'll be using it exclusively in the browser. This means that you can access your work from any computer connected to the internet, and all your code and data will be available for you 24/7. To get to RStudio®, open a web browser (like Firefox or Google Chrome) and navigate to [[https://ids.mobilizingcs.org/#rstudio/]]. You will be prompted for your username and password on a page like this,
+{{ :rstudio:rstudiologin.png?direct&700 |RStudio login}}
+
+If you don't know your username or password, please visit our [[:contact|contact page]] for support options.
+
+Once you have logged in, you should see something like this:
+
+{{ :rstudio:rstudiofirstscreen.png?direct&700 |RStudio first screen}}
+
+If you have successfully logged in to RStudio, you can start doing some data analysis! 
+
+
+
+==== More general information ====
+  * For an explanation of the panes in RStudio®, see [[rstudio:panes|panes]].  
+  * Learn how to [[rstudio:open_data|open data]] of different types (like .csv, .rda, .robj files).
+  * Learn about using RStudio® for the [[rstudio:ids|Introduction to Data Science]] or [[rstudio:mzp|Exploring Computer Science]] courses.  
+  * Watch a short [[http://youtu.be/0h2b3sO5DT8|video introduction to Rstudio®]]
+
+All rights to RStudio® and Shiny™ are exclusive to RStudio, Inc.

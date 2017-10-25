@@ -1,0 +1,20 @@
+====Useful terms====
+
+**dataset**: a collection of data or observations. Usually, this is a file that contains many rows and columns. The rows are individual observations and the columns are variables. An example of a dataset is the labike.csv file.
+
+**observation**: an observation is typically a row in a dataset. It is a collection of information about one thing. In the LA Bike data, each observation is an intersection in LA.
+
+**variable**: a variable is typically a column in a dataset. It is a collection of information about one aspect of something, over a bunch of observations. In the LA Bike data, the columns are things like the latitude and longitude values for the intersections in LA, the number of bikes, etc.
+
+**function**: a function is a small program with a specific job that takes parameters as inputs and returns a result as an output. An easy function to think about is mean(), which takes numbers as its inputs, adds them all up and divides by the number of cases, and returns that value.
+
+**parameter**: a parameter is a variable associated with a function input. It allows us to pass a specific value as an argument to the function.  For example, a parameter of the plot() function is col, which lets you specify the color. 
+
+**argument**: an argument is a specific value that is passed as part of a function call. Often, it is associated with a parameter. For example, "blue" is an argument that can be passed with the parameter col to the plot function.
+
+**default**: the default is what a function does if not otherwise instructed. For example, the plot function will assume that the parameter col has a default value of "black", and therefore will plot a graph in black if no color is passed as an argument. 
+
+**return**: the return is what a function gives back to you. The mean() function returns the value of the mean.
+The plot() function returns a plot.
+
+**pass**: to pass values as input arguments to a function, you have to put them inside the function call. In other words, they need to be in the parentheses.

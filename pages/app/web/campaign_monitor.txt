@@ -1,0 +1,32 @@
+===== Campaign Monitor =====
+
+As a teacher managing or running a campaign, you may want to do some analysis of the campaign activity itself (rather than just the content of the responses).  This tool allows you to view how active/inactive a particular campaign is, along with some other helpful information.  You can get started by browsing to http://lausd.mobilizingcs.org/monitor/ . Once logged in, use the dropdown at the top to select a campaign you have access to, and you'll be greeted with something that looks similar to the screenshot below.  Since this tool is one page, we've annotated the different items on the page using a red number.
+
+{{ :app:web:cm_01.png?direct |}}
+
+  - This dropdown allows you to select any campaign you have access to.
+  - This provides the current total responses and users, as well as an "i" button to access more information about the campaign.  See below.
+  - A pie chart representing the proportion of active vs. inactive users attached to the campaign.
+  - A pie chart representing the proportion of shared vs. private responses for this campaign.
+  - A timeseries chart, displaying the count of responses submitted per day (with differing colors for shared/private data).
+  - A histogram portraying a user count ordered by the number of responses users have submitted (eg. in the screenshot 12 users have submitted 0 responses and 1 user has submitted 2 responses).
+  - A pie chart representing the type of client which was used to submit each survey response. The available options here are Android, iOS and Browser.
+  - A few helper functions for the user list, allowing the splitting of students on to multiple pages and a search box to find a specific user.
+  - A checkbox which will show/hide user's personal data in the event that you would want to show this to your class, but not divulge which user account matches which student's name.
+  - The actual list of users with username, first name, last name, count of private responses, count of shared responses and count of total responses.  
+
+An additional item you'll notice is that this display is interactive -- clicking on the pie charts or bar charts subsets/slices the data so you can quickly note items like "which users are inactive" and "which users need to share their data." The data found on the user list will be subset as well, when you click on these charts.  You can easily un-subset the data by clicking "Reset All" or by simply reloading the page.
+
+=== Info Box ===
+Clicking on the "i" icon will present you with this view:
+
+{{ :app:web:cm_02.png?direct |}}
+
+The table displays some detailed statistics for the campaign you are currently viewing:
+  * User Info displays the count of total, active and inactive users (and also shows percentages of the total encompassed by active/inactive users).
+  * Response Info displays the count of total, shared and private responses (and also shows percentages of the total encompassed by shared/private responses).
+  * Avg responses per active users is the count of responses divided by count of active users.
+  * Responses with GPS data is the count of responses with GPS metadata (some mobile clients, in addition to the browser do not always provide GPS data).
+  * First response date is the date the first response was submitted for this campaign.
+  * Last Response date is the date of the most recent response for this campaign.
+  * Total Collection Days is the most recent response date subtracted by the first day.

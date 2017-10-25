@@ -1,0 +1,10 @@
+===== Browser Survey - Login =====
+If you are unable to take a survey from an apple or android smartphone device, you can use the browser-based survey submission interface, located [[https://lausd.mobilizingcs.org/survey|here]].
+
+When the link loads you will be taken to a screen that looks like the one below. Please log in using the username and password provided to you.
+
+{{ :app:survey:login1.png?direct&300 |}}
+
+After logging in you will see a number of menu options on the main screen. You can select the [[:app:survey:campaigns|Campaigns]] area, the [[:app:iphone:surveys|Surveys]] area, the [[:app:iphone:queue|Upload Queue]] area, the [[:app:iphone:profile|Profile]] area or the [[:app:iphone:reminders|Reminders]] area.
+
+{{ :app:survey:login1.png?direct&300 |}}

@@ -1,0 +1,11 @@
+==== RStudio vs. Deducer ====
+
+|              ^ Deducer            ^ Rstudio         ^
+^ Operation    | Graphical User Interface. Students select appropriate menus to manipulate and visualize data, clicking buttons and tabs.   | Script-based, in an Integrated Development Environment. Students type in commands.         |
+^ Support documents | Wiki, Quick Start Guide, videos, emailing Mobilize support. | Wiki, Quick Start Guide, 1-page "cheat sheet", videos, emailing Mobilize support. |
+^ Embedded support | N/A | Code completion, code history, dynamic help files. |
+^ Students' workspace | Students are responsible for the availability of their saved workspace, data files, and finished products (images, PowerPoint presentations, etc).  | The workspace can be saved and stored on the server and is always available. Code history is automatically stored, data is always available (will not be wiped), and images and other finished products can be saved by uploading to the server. |
+^ Feature extension | Complex and slow. Whenever we want a new menu or option, it takes many lines of code and time to develop new features for the GUI. | Easy and fast. A few lines of R code can be written and added to the server in minutes. |
+^ Installation overhead   | High overhead since the installation must be done separately on every computer. Only available on school computers. | Low overhead. Installation is done at one server, so it is available from any computer with internet access. |
+^ Update | Hard to update and maintain the software due to the amount and the locations of computers. | Easy to update and maintain since it can be done centrally on the server. |
+

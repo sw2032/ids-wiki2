@@ -1,0 +1,24 @@
+====== Bar Plots ======
+
+A bar plot creates a bar for each level of a factor variable. An easy way to think about this is if you had a question with four possible answers, A, B, C, and D. A bar plot of the data would have a bar labeled A, and the height of the bar would be the number of times someone had answered A. Then there would be a bar labeled B, whose height was the number of times people had answered B. Etcetera. 
+
+Lets look at a concrete example. If you use the ''plot()'' function on categorical data, 
+
+<code r>
+plot(labike$type)
+</code>
+
+you will get a bar plot that looks like this:
+
+{{ :rstudio:plot1.jpeg?direct&300 |Plot 1}}
+
+Each bar represents how many times each of those categories appeared in the data set. So, ''bike lane'' appeared 5 times (there were five rows in the ''labike.csv'' dataset that said ''bike lane''), ''bike path'' and ''bike route'' each appeared a little more than 5 times, and ''none'' appeared 20 times. This lets you see the distribution of responses. 
+
+
+Another way you could have made a barplot is using the ''barplot()'' function: 
+<code r>
+barplot(table(cdc$gender))
+</code>
+{{ :rstudio:barplot1.jpg?direct&300 |Bar plot 1}}
+
+This plot shows us that both ''Male'' and ''Female'' appeared about 7000 times. Since these data came from a random survey, we would expect to see a 50/50 split between genders, so this makes sense. 

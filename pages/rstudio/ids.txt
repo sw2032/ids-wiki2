@@ -1,0 +1,4 @@
+==== RStudio® for IDS ====
+
+  * Learn how to [[rstudio/load_labs|load the IDS labs]] into the RStudio® Viewer pane.
+  * Find a [[https://rawgit.com/mobilizingcs/ids_labs/master/List_of_functions.html|list of functions]] and how to use them.

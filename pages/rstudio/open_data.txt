@@ -1,0 +1,59 @@
+===== Opening data =====
+The first step to analyzing data is to load it in to RStudio. The way you load the data depends on the type of data you have.
+
+==== Built in data files ====
+Some data files are built into every installation of R. For example, typing
+<code r>
+data(mtcars)
+</code>
+
+will load the Motor Trends car data set into R's memory.
+
+Other data files are bundled with packages. To access these data files, first load the package and then the data file. For example,
+
+<code r>
+library(MobilizeSimple)
+data(movie)
+</code>
+
+will load some movie data from Rotten Tomatoes into R's memory.
+
+==== .csv files ====
+For .csv files, the easiest way to load the data is to use the "Import Dataset" button on the Workspace pane. When you click this button, you will get a dropdown menu with two options, choose "From Text File" {{ :rstudio:importdataset.png?direct&700 | Import dataset}}
+Then, a file browser will appear, choose your data set; click "Open" {{ :rstudio:choosedataset.png?direct&700 |}} 
+A preview window will appear, where you should check to see if the data looks correct. A couple basic things to check for are whether the names of variables appear correctly in the bottom pane, and if all the columns seem to have separate data. Finally, give your data a short, descriptive name and if it all looks good, click "Import."
+{{ :rstudio:previewdata.png?direct&700 | Preview data}}
+
+Notice that the name of your data appears in the Workspace pane, and a preview of the data opens in the file-viewing pane.
+{{ :rstudio:dataopen1.png?direct&700 |csv data open}}
+
+Of course, there is a way to do this with R code, too
+<code r>
+labike <- read.csv("~/ecs_unit5/labike.csv")
+</code>
+And this code produces the same results as the Import Dataset button. In fact, if you look at the screenshots for the process, you can see that this code is appearing in the Console when you use the button!
+
+==== .rda files ====
+For .rda files, the process is even simpler. Just click on the name of the file in the Files pane. When prompted, say "Yes."
+{{ :rstudio:dataopen2.png?direct&700 |rda data open}}
+Notice that the name of your data appears in the Workspace pane, but that a preview of the data does not automatically appear in the file-viewing pane.
+{{ :rstudio:dataopen3.png?direct&700 |rda data open 2}}
+In order to see your data in the file-viewing pane, click the name of your data in the Workspace pane {{ :rstudio:dataopen4.png?direct&700 |rda data open 3}}
+
+Again, there is corresponding code that will do these same things.
+<code r>
+load("~/ecs_unit5/cdc.rda")
+</code>
+==== .robj files ====
+For .robj files, you'll need to use a piece of R code to open the data. In the Console pane, type a name for your data, then the equal sign, then the command dget("") with the name of your data inside the parentheses and quotes. 
+<code r>
+weather <- dget("~/ecs_unit5/weather.robj")
+</code>
+
+See the example here, {{ :rstudio:dgetconsole.png?direct&700 |dget Console}}
+Then, hit enter. Note that the name of your data appears in the Workspace tab, but that a preview of the data does not automatically appear in the file-viewing pane. {{ :rstudio:dgetDone.png?direct&700 |dget done}} 
+In order to see your data in the file-viewing pane, click the name of your data in the Workspace pane, or, there is corresponding code that will do these same things.
+<code r>
+View(weather)
+</code>
+ {{ :rstudio:dgetOpen.png?direct&700 |dget open}} 

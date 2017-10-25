@@ -1,0 +1,50 @@
+=====Deleting a Class Process=====
+
+When you create a class, the system automatically creates three campaigns (FoodHabits, TimeUse, Stress and Chill) and two surveys (PersonalityColor, TimePerception) for that class.
+
+In order for you to delete a class you must delete the campaigns and surveys corresponding to that class. 
+
+*** Warning - Deleting a campaign will also delete any data that was collected by students for that campaign.**
+
+ 
+
+
+====Step 1: Deleting Campaigns====
+
+Go to the Campaign Manager on the [[https://ids.mobilizingcs.org/#|IDS home page]].
+
+{{ :undefined:deleteclass01.png?direct&700 |}}
+
+  * Click on the Responses drop down menu corresponding to one of the campaigns linked to the class you wish to delete. (In the example below, we are deleting the Food Habits campaign corresponding to Period 1)
+
+  * Click on Settings
+
+{{ :undefined:deleteclass03.png?direct&700 |}}
+
+Delete Campaign
+
+{{ :undefined:deleteclass04.png?direct&700 |}}
+
+You will receive a confirmation message that the campaign has been deleted
+
+{{ :undefined:deleteclass05.png?direct&700 |}}
+
+**Repeat this process with the other four campaigns associated with the class you wish to delete.**
+
+====Step 2: Deleting the Class ====
+
+Now that all the campaigns associated with the class you want to remove have been deleted, you can delete the class. 
+
+   * Click on the Classes tab in the Campaign Manager and then Manage.
+
+{{ :undefined:deleteclass06.png?direct&700 |}}
+
+  * Click Delete Class.
+  * You will get a message asking if you are sure you want to delete the class. Confirm that this is the correct class, then click OK to delete.
+
+{{ :undefined:deleteclass07.png?direct&700 |}}
+
+
+
+
+

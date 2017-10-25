@@ -1,0 +1,17 @@
+===== Android App - Response History =====
+
+After you have taken a few surveys on the mobile device, you may be interested in viewing data surrounding the submitted surveys. You can do this by selecting Response History from the main menu of the mobile application. This will show you detailed information in a number of formats about your submitted responses. The default view is "Calendar View" which shows your completed surveys in a time history, calendared view.
+
+{{ :app:android:response1.png?direct&300 |}}
+
+If you tap on a day in the monthly-view calendar, you'll be taken to the daily view display.  It should look something like this:
+
+{{ :app:android:response2.png?direct&300 |}}
+
+You can tap on any survey and see the details of that particular survey.
+
+{{ :app:android:response4.png?direct&300 |}}
+
+Additionally, you can tap the "Map" view subheading and view responses by their location on a map.
+
+{{ :app:android:response3.png?direct&300 |}}

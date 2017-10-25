@@ -1,0 +1,15 @@
+===== iPhone App - Login =====
+To install the Mobilize ios application, you can either [[https://itunes.apple.com/us/app/mobilize-mwf/id601202066?mt=8|click this link]] directly, or search for "UCLA MobilizingCS" directly from the app store (make sure the logo looks like the logo on the upper left of this web page!).
+Once installed, follow the instructions below to get started!
+
+The Mobilize application can be accessed from the home screen on your iPhone device. Look for an icon with this logo:
+
+{{ :app:iphone:login1.png?direct |}}
+
+When the application loads you will be taken to a screen that looks like the one below. Please log in using the username and password provided to you.
+
+{{ :app:iphone:login2.png?direct&300 |}}
+
+After logging in you will see a number of menu options on the main screen. You can select the [[:app:iphone:campaigns|Campaigns]] area, the [[:app:iphone:surveys|Surveys]] area, the [[:app:iphone:queue|Upload Queue]] area, the [[:app:iphone:profile|Profile]] area or the [[:app:iphone:reminders|Reminders]] area.
+
+{{ :app:iphone:login3.png?direct&300 |}}

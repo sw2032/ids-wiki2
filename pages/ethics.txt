@@ -1,0 +1,12 @@
+===== Ethical Issues surrounding Mobilize ======
+
+==== Ethical Issues ====
+  * Participants are collecting data (survey responses, time & date stamp, image capture and location data) that can be personal in nature.
+  * Students may not understand the potential possibility of providing personal data nor the potential consequences of sharing this personal data with others. 
+  * Photo capture & mapped location data of collection points would be two examples of such sensitivity.
+
+==== Suggestions ====
+  * Encourage participants to not share their unique usernames and passwords with anyone to ensure their anonymity of data.
+  * Encourage participants to adhere to guidelines for completing surveys and keeping focused on collecting data only important to the campaign,
+  * Teachers should monitor class data for inappropriate and identifiable material.
+  * Address how you plan to handle managing private and shared data of your students before data collection begins so your students are aware that you will be monitoring their data and will make their appropriate data shared and viewable by their classmates.

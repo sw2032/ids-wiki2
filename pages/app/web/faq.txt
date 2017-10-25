@@ -1,0 +1,22 @@
+===== Frequently Asked Questions =====
+
+====Why don't I see an edit link next to a campaign?====
+Likely, you can't see an edit link because you did not create the campaign and/or you are not a supervisor. This is often the case for students, who do not have access to edit campaigns. However, if you do not see the link and believe you should (for example, if it is a campaign you created, or you are a teacher) please contact tech support.
+
+====Why would I want to delete a campaign?====
+Deleting a campaign makes it disappear completely. So, if you are a teacher and have decided you are only going to be using one campaign in your classrooms, you can delete the other campaign that was preloaded to the front end for you. As long as you do this before your classes begin collecting data, this will mean the campaign will not show up on any of your students' phones or when they log into the web front end. It is important not to delete campaigns that have data associated with them, as all the data will be lost.
+
+====Why can't I edit responses?====
+Remember, [[:app:web:usertypes|analysts]] can only edit data that they have created, but [[:app:web:usertypes|supervisors]] should be able to edit all the data in the campaign. If you don't see checkboxes to select individual responses, make sure that you're in the [[:app:web:responses#edit_responses|Edit Responses]] state, rather than the Browse Responses state.
+
+====How can I see how many responses each participant has contributed?====
+The easiest way is to create a leader board plot in the [[:app:web:exploredata|Explore Data]] tab. This will allow you to see the number of responses each participant has contributed. To cross-reference usernames with users real names (if you're a supervisor), go to the [[:app:web:classes|Classes]] tab.
+
+====Why doesn't my screen look like your screen shots?====
+As it says on the home page, ohmage is used in a variety of different applications, so your version may look slightly different (e.g. different logo or slightly modified options). Also, all these screen shots were taken by a user with [[:app:web:usertypes|supervisor]] privileges, so if you don't have those privileges you may not be able to see "edit" options on as many pages. Finally, the screen shots were taken in Google Chrome, so the website may appear differently in other web browsers.
+
+====How do I change my password?====
+Passwords can be changed on the [[:app:web:account|My Account]] page. Remember, all passwords must be "strong" passwords (meaning they must contain at least one uppercase letter, one number, and one symbol, like !@#$%^&*().
+
+====How do I download all the responses associated with a particular campaign?====
+To download the data, choose "export" next to the campaign on the [[[[:app:web:campaigns|Campaigns]] tab.

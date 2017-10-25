@@ -1,0 +1,287 @@
+
+===== Math - Mobilize ONESTOP =====
+This wiki provides a single page with a step-by-step process (and all necessary links) required to participate in the Mobilize unit. All materials you'll need to implement the Mobilize Math curriculum can be found at [[https://ucla.box.com/v/mobilize|Mobilize Curriculum Directory]]. The link will take you to the general directory for all Mobilize curricula. Just click on the folder marked "MZ Curriculum_Math" to find current versions of the Mobilize Math Unit, PowerPoints, Student Handouts, and Additional Teacher Resources. 
+
+All URLs related to the Mobilize tools and applications are listed on [[https://wiki.mobilizingcs.org/urls]].
+
+
+
+
+==== Step 1 (Week+ before starting unit) - Check software; Create classes and accounts ==== 
+  * {{:wiki:computer-3.png?nolink&20}} Teachers make sure that they and their students will have access a computer lab that satisfies the [[https://wiki.mobilizingcs.org/requirements|minimum software requirements]]. 
+  * To prevent a blank screen issue due to a firewall, please ask your IT support for instructions for installing a root certificate on your and your students' browsers. 
+  * Each IDS teacher creates their own classes and student accounts by following [[https://wiki.mobilizingcs.org/app/web/teacher|the IDS Class Setup Process]].  
+
+
+==== Step 3 (Day 0) - Students Take the "Pre-Q" ====
+  * {{:wiki:document-edit.png?nolink&20|}} Teachers administer the student pre-questionnaire (or "Pre-Q") BEFORE beginning the unit. You will receive a packet of pre-questionnaires and administration directions at the August 29th training.
+  * The Pre-Q includes a series of algebra and data-related tasks and should take approximately 45 minutes (1 class period including directions, passing out Pre-Q's, etc.) to complete.   
+  * Teachers will also be asked to complete a short pre-survey before starting the unit.  You will receive a link via email. 
+  * Contact Debbie La Torre Matrundola at 310.206.1385 or help@mobilizingcs.org  if you have any questions or concerns. 
+
+// ** __Target Story__** //
+When your students have completed the "Pre-Q" you will have time to present the Target Story; a brief video discussing data collection practices by large corporations. (Time: 4.5 minutes) When the video ends, ask students, "How did Target know she was pregnant?" Discuss first as teams and have each team share out.
+
+Watch the video [[http://youtu.be/XvSA-6BJkx4|HERE.]]
+
+Download the video [[https://www.dropbox.com/s/biljnp1tikptu63/Target%20Story.mp4?dl=0 | HERE.]]
+
+==== Step 4 (Day 1) - Implement Unit 1 - Lesson 1: Life with Big Data ====
+Objective: Students reflect on what are data, how it is collected and used. Students are introduced to the unit question: How do data affect me now and in the future?
+
+Common Core State Standards & Mathematical Practices:
+  MP2 - Reason abstractly and quantitatively
+
+// ** __Lesson 1 Resources & Materials__** //
+  * Download the Lesson 1 PowerPoint presentation (additional resources)
+  * Watch Target Story Video: [[http://youtu.be/XvSA-6BJkx4|HERE.]]
+  * Student HO1 The Data Four-Fold Organizer
+  * Student HO2 Data Diary Project 
+  * Student Math Journal
+  * Chart size copy of the Four-Fold Organizer
+
+==== Step 5 (Day 2) - Implement Unit 1 - Lesson 2: Forming Conjectures ====
+Objective: Students will learn to form questions and make predictions about data. They will make predictions that can be phrased as “I predict that…” and be able to identify types of data and variables present.
+
+Common Core Standards & Mathematical Practices:
+  NQ2 - Define appropriate quantities for the purpose of descriptive modeling.
+  NQ3 - Choose a level of accuracy appropriate to limitations on measurement when reporting quantities.
+  MP3 - Construct viable arguments and critique the reasoning of others.
+
+// ** __Lesson 2 Resources & Materials__** //
+  * Download the Lesson 2 PowerPoint presentation (additional resources)
+  * Student Math Journal
+  * Data Diary Project (from Lesson 1)
+  * Student HO1 Set the Scene Activity - Snack Times
+
+==== Step 6 (Day 3) - Implement Unit 1 - Lesson 3: Statistical Questions & the Data Cycle ====
+Objective: Students formalize statistical questions and understand the flow of the Data Cycle.  Students upload and use the Mobilize Snack Campaign to collect data about their personal snack consumption. *Note to teacher: try to schedule this lesson for a Friday or day before a weekend so that students can collect data over multiple days.
+
+Common Core Standards & Mathematical Practices:
+  NQ1 - Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.
+  NQ2 - Define appropriate quantities for the purpose of descriptive modeling.
+  NQ3 - Choose a level of accuracy appropriate to limitations on measurement when reporting quantities
+  MP6 - Attend to precision.
+  MP7 - Look for and make use of structure.
+
+// ** __Lesson 3 Resources & Materials__** //
+  * Download Lesson 3 PowerPoint presentation (additional resources)
+  * Student data collection devices: Cell Phones, iPads, iPods, or tablets 
+  * Student Math Journals
+  * Chart Poster for Students: Team Chart – Statistical Questions and Predictions
+  * Student HO1 Mobilize App Instruction Sheet
+==== Step 7 (Day 4-5) - Implement Unit 1 - Lesson 4: Data Generated Expressions and Equations  ====
+Objective: Day 1 - Students continue to collect data, create standards for having productive discussions regarding collected data (non-attacking), and begin to explore the dashboard to introduce writing expressions and equations from data.
+Day 2 - Students create expressions and equations to better quantify their data and give values to their predictions and questions.
+
+Common Core Standards & Mathematical Practices:
+  A-SSE1 Interpret expressions that represent a quantity in terms of its context
+  A-CED1 Create equations and inequalities in one variable including ones with absolute value and use them to solve problems in and out of context, including equations arising from linear functions.
+  MP1 - Make sense of problems and persevere in solving them.
+  MP2 - Reason abstractly and quantitatively.
+  MP5 - Use appropriate tools strategically.
+
+// ** __Lesson 4 Resources & Materials__** //
+// ** __Day 4__** //
+  * Download PowerPoint presentation (additional resources)
+  * Student Math Journal (all notes/ summaries)
+  * Student HO1 :Dashboard Donut Plot Exploration Handout
+  * Student Predictions Charts (Information recorded during Lesson 2)
+  * Team Charts - Statistical Questions and Prediction (from Lesson 3)
+// ** __Day 5__** //
+  * Dashboard Donut Plot Exploration Handout (from Lesson 4 Day 1)
+  * Student Statistical Questions and Predictions (from Lesson 3)
+  * Team Charts - Statistical Questions and Predictions (from Lesson 3)
+  * Student HO1 Mobilize Snack Dashboard Exploration
+
+ 
+==== Step 8 (Day 6) - Implement Unit 1 - Lesson 5: Categorical versus Quantitative Data ====
+// ** __The campaign has now ended and students should no longer be collecting data.__** //
+Objective: Students use the dashboard to analyze personal and class data. Students identify expressions and equations that represent their data, develop research questions and explore evidence to support their claims.
+
+Common Core Standards & Mathematical Practices:
+  NQ1 - Use units as a way to understand problems and to guide the solution of multi-step problems; choose and interpret units consistently in formulas; choose and interpret the scale and the origin in graphs and data displays.
+  ACED1 - Create equations and inequalities in one variable including ones with absolute value and use them to solve problems in and out of context, including equations arising from linear functions.
+  MP2 - Reason abstractly and quantitatively.
+  MP3 - Construct viable arguments and critique the reasoning of others.
+
+// ** __Lesson 5 Resources__** //
+  * Download PowerPoint presentation (additional resources)
+  * Computers for students
+  * Mobilize Dashboard URL and Student Login Information
+  * Mobilize Snack Dashboard Exploration Handout (from Lesson 4)
+  * Student Math Journal
+==== Step 9 (Day 7) - Implement Unit 1 - Lesson 6: Predictions and Relationships ====
+Objective: Students research articles to better understand what data are necessary to revise predictions and find relationships between variables.
+
+Common Core Standards & Mathematical Practices:
+  MP3 - Construct viable arguments and critique the reasoning of others.
+  MP5 - Use appropriate tools strategically.
+
+// ** __Lesson 6 Resources__** //
+  * Download Lesson 6 PowerPoint presentation (additional resources)
+  * Student HO1 - Nutrition Information Handout
+  * Student HOs 2-5
+     * Handout 2 - Toolkit 1: Powerful Plants 
+     * Handout 3 - Toolkit 2: Whole Grains  
+     * Handout 4a - Toolkit 3: Plant Proteins
+     * Handout 4b - Swapping Lunchbox Sweets
+     * Handout 5 - Toolkit 6: Taste a Rainbow
+  * Student Math Journals
+==== Step 10 (Day 8-10) - Implement Unit 1 - Lesson 7: Supporting Claims with Mathematical Evidence ====
+Objective: Students create a final project that utilizes the data cycle and as a result they will display the data and mathematical evidence needed for analyzing and supporting their claims. Then, finally, they will interpret their data in order to revise their statistical questions to develop a new campaign to collect data on the nutrition of their snacks.
+
+Common Core Standards & Mathematical Practices:
+  A-SSE1 Interpret expressions that represent a quantity in terms of its context
+  A-CED1 Create equations and inequalities in one variable including ones with absolute value and use them to solve problems in and out of context, including equations arising from linear functions.
+  MP4 - Model with mathematics.
+  **The following standards can be assessed as an extension for more of a challenge to students:
+  A-CED2 Create equations in two or more variables to represent relationships between quantities; graph equations on coordinate axes with labels and scales.
+  A-CED10 Understand that the graph of an equation in two variables is the set of all its solutions plotted in the coordinate plane, often forming a curve (which could be a line).
+
+// ** __Lesson 6 Resources__** //
+  * Computers for students
+  * Student HO1 - Data Cycle Information Handout
+  * Student HO2 - Data Cycle Diagram Handout
+  * Student HO3 - Oral Presentation Evaluation Form
+  * Student HO4 - Peer Evaluation Rubric
+  * Posters for each team for a team presentation
+  * Student Math Journal
+
+==== - Please Upload the Final Projects to the Web Front End ==== 
+  * Please take a picture of all Students posters.
+  * Follow the instructions in Step 10 to upload the pictures.
+
+==== Step 10 (Post Lessons) - Upload students' projects ====
+  * {{:wiki:mobilize_finallogo_cmyk.png?nolink&60|}} Login to the Mobilize web frontend at [[https://lausd.mobilizingcs.org/web]], then click on the "Document" tab to upload students projects:
+    *Before uploading student projects, (re)name each file using the following naming convention: M_U#_TeacherLastName_P#_G#_Part#
+    *This expands to: "Math_Unit#_Teacher's Last Name_Period#_Group# [if applicable]_Project Part 1, 2, 3, etc. [if applicable] 
+    *For physical projects, please try to photograph, upload & rename as an electronic file (or let us know you'd like us to pick up the projects and we'll do it for you!)
+    * Click "Upload Documents"
+    * Click "Choose File" and select the file from your local system
+      * If you'd like to test the functionality, {{:onestop:blue_parent_info_sheet_approved_09.05.13.pdf|here's a sample file to use}}
+    * Click "Add Classes" and select one of your classes
+    * Click "save" to finish upload.
+
+==== Step 11 (Post Lessons) - Nutrition Campaign ====
+Students will now download the Nutrition Campaign that has been developed to align with the ideas they generated during Lesson 7 while designing a new campaign. Have students download the campaign and collect data for several weeks, until the start of the Mobilize Math Unit 2.
+  * // ** __ User Names and Passwords__** // 
+  * Students should all be familiar with their user names and passwords, but ensure that all students have their login information.
+  *  Login to the Mobilize teacher tool at [[https://lausd.mobilizingcs.org/teacher]], select an appropriate class, to reset passwords if necessary.
+  * {{:wiki:logo.png?nolink&25|}} Have students downloaded the Mobilize data collection app from the following locations: 
+    * // ** __Google Play Store:__** // 
+      * Search for "UCLA MobilizingCS" app or download from [https://play.google.com/store/search?q=mobilizingcs]
+      * [optional] Search for "SystemSens" app or download from [https://play.google.com/store/apps/details?id=edu.ucla.cens.systemsens&hl=en]
+    * // ** __iOS App Store:__** //  
+      * Search for "UCLA MobilizingCS" app or download from [https://itunes.apple.com/us/app/mobilize-mwf/id601202066?mt=8]
+    * // ** __Web-Based Application:__** //
+    * For students that do not have smartphones, go to the Mobilize web-based application at [[https://lausd.mobilizingcs.org/survey]] to collect data. 
+
+  * Watch [[https://wiki.mobilizingcs.org/home?&#available_video_tutorials|Mobilize tutorials]] on data collection. 
+  * Navigate the Mobilize data collection app and practice using the app.
+  * Discuss research question, photo ethics and student safety related to phone/device use. 
+  * Note: Visit http://wiki.mobilizingcs.org/home for Mobilize technology description, as well as, online and video tutorials.
+
+==== Step 12 (Day 1-2) - Implement Unit 2 - Lesson 1: Data Visualizations  ====
+Objective: DAY 1 - Students reflect on the data visualizations from Unit 1 and draw conclusions about single-variant data and multi-variant data. Students will gain insights into the world’s view of ‘Big Data.’
+DAY 2 - Students will manually collect their height data and for others in their circle, to interpret trends in data.
+ 
+
+Common Core Standards & Mathematical Practices:
+  F-IF7 Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.
+  MP2 - Reason abstractly and quantitatively.
+  MP3 - Construct viable arguments and critique the reasoning of others.
+
+// ** __Lesson 1 Resources & Materials DAY 1__** //
+  * LCD Projector
+  * Student Handout 1: Campaign Creation Graphic Organizer
+  * Student Handout 2: Data Visualization Graphic Organizer
+  * Student Handout 3: Plot Analysis Guide - can be found in Unit 1 Teacher Resources
+  * Student Handout 4 (Homework): Family Data Collection Chart
+  * Student Math Journal: All notes, individual journaling and summaries should be kept in one notebook.
+// ** __DAY 2__** //
+  * LCD Projector
+  * Student Handout 5: Data Visualization Partner Cards
+  * Data Visualization Handouts (8 with discussion questions) - can be found in Teacher Resources
+  * Student Handout 4 (Homework from Day 1): Family Data Collection Chart 
+  * Student Math Journals
+  
+==== Step 13 (Day 3) - Implement Unit 2 - Lesson 2: Analyzing Visualizations  ====
+Objective: Students will analyze height data that they collect on themselves and on members of their families and learn how to determine if there is a relationship between two variables: age and height.
+Students will identify features of a scatterplot to gain an understanding that for data collected on real-life events, variability makes it more difficult to see patterns clearly.
+ 
+
+Common Core Standards & Mathematical Practices:
+  F-IF4 For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship. //Key features include: intercepts; intervals where the function is increasing, decreasing, positive, or negative; relative maximums and minimums; symmetries; end behavior; and periodicity.////Italic Text//
+  MP3 - Construct viable arguments and critique the reasoning of others.
+  MP6 - Attend to precision.
+  
+// ** __Lesson 2 Resources & Materials__** //
+  * Friends & Family Graph (from lesson 1)
+  * Student Handouts 1-3: Analyzing Scatter Plots 
+  * Student Math Journal
+  * Student Handout 4: CDC Growth Reference Data for boys, ages 2-20
+  * Student Handout 5: CDC Growth Reference Data for girls, ages 2-20
+
+ 
+==== Step 14 (Day 4) - Implement Unit 2 - Lesson 3: Rate of Change in the World of Data====
+Objective: Using CDC, this lesson presents students with an opportunity to explore and gain a deeper understanding of rate of change, and the role it plays in interpreting graphs and understanding data. “What does the rate of change tell us about the relationship between two variables?”
+
+Common Core Standards & Mathematical Practices:
+  F-IF1 Distinguish between situations that can be modeled with linear functions and with exponential functions.
+   a. Prove that linear functions grow by equal differences over equal intervals.
+   b. Recognize situations in which one quantity changes at a constant rate per unit interval relative to another.
+  MP1 - Make sense of problems and persevere in solving them.
+  
+  
+// ** __Lesson 3 Resources & Materials__** //
+  * CDC Growth Reference Data for boys, ages 2-20 (Student Handout 4 from Lesson 2)
+  * CDC Growth Reference Data for girls, ages 2-20 (Student Handout 5 from Lesson 2)
+  * Student Handout 1: Compare Contrast Charts
+  * Student Handout 2: Language Organizer (Optional)
+  * Student Handout 3: Growth Rate Data Chart
+  * Analyzing Scatter Plots Handout (Student Handout 1 from Lesson 2)
+==== Step 15 (Day 5) - Implement Unit 2 - Lesson 4: Trend Lines and Their Implications  ====
+Objective: Students upload and use the Mobilize Height Campaign to collect data about their height and arm span to analyze the association of these two data sets. Students will investigate the idea of Leonardo's drawings of the Vitruvian Man. 
+
+Common Core Standards & Mathematical Practices:
+  F-IF7 Graph functions expressed symbolically and show key features of the graph, by hand in simple cases and using technology for more complicated cases.
+  MP5 - Use appropriate tools strategically.
+
+// ** __Lesson 4 Resources & Materials__** //
+  * LCD Projector
+  * Measuring instruments: 6-8 measuring tapes and yarn
+  * Student Data Collection Devices: Cell Phones, iPads, or iPods
+  * Student Handout 1: Height and Arm Span Data Chart and graph
+  * Package of spaghetti for finding trend lines.
+  * Student Math Journal
+
+
+==== Step 16 (Day 6) - Implement Unit 2 - Lesson 5: Analyzing and Interpreting Data ====
+Objective: Students will gain more experience using the Plot App and the Dashboard to analyze and interpret data. They will explore and question their perception of a healthy snack using the nutrition facts in their data.
+
+Common Core Standards & Mathematical Practices:
+  F-BF1 Write a function that describes a relationship between two quantities.
+   a. Determine an explicit expression, a recursive process, or steps for calculation from a context.
+   b. Combine standard function types using arithmetic operations. For example, build a function that models the temperature of a cooling body by adding a constant functions to a decaying exponential, and relate these functions to the model.
+  MP7 - Look for and make use of structure.
+
+// ** __Lesson 5 Resources & Materials__** //
+  * LCD Projector
+  * Student Handout 1: Data Exploration (PlotApp)
+  * Student Math Journal
+
+
+==== Step 17 (Day 7) - Implement Unit 2 - Lesson 6: Interpreting Data Using Equations====
+Objective: Students will interpret graphical representations of health data, analyze graphical patterns, draw conclusions, and generate arguments regarding the observed patterns.
+
+Common Core Standards & Mathematical Practices:
+  F-BF1 Write a function that describes a relationship between two quantities.
+  F-IF4 For a function that models a relationship between two quantities, interpret key features of graphs and tables in terms of the quantities, and sketch graphs showing key features given a verbal description of the relationship.
+  MP3 - Construct viable arguments and critique the reasoning of others.
+
+// ** __Lesson 6 Resources & Materials__** //
+  * LCD Projector
+  * Student Handout 1: Analyzing the Patterns in Data
+  * Student Math Journal
+

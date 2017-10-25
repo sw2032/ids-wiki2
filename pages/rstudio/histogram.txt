@@ -1,0 +1,13 @@
+====== Histogram ======
+
+A histogram lets you see a distribution for a quantitive variable, like a [[rstudio:bar_plot|bar plot]] lets you see for a categorical variable. Unlike categorical variables, quantitive variables don't have inherent bins, so that's something we can choose (or R will choose it for us). 
+
+Lets look at an example:
+
+<code r>
+hist(cdc$weight)
+</code>
+
+{{ :rstudio:histogram.jpg?direct&500 |Histogram}}
+
+This is a histogram of the ''weight'' variable. The x-axis is the value of the ''weight'' variable (ranging from about 30 to about 150) and the y-axis is the number of times that range of values appeared in the dataset. The tallest box seems to be from about 50 to about 60. This bar is about 3500 tall. So, about 3500 people in the dataset weight between 50 and 60 (50 and 60 //what//, though? Pounds?). The next bar in the histogram is a little shorter, and they taper off as the weight gets larger. Once the weight range is 140-150, there barely seem to be any people to count. Similarly, in the smaller weight ranges, there are also fewer people. 

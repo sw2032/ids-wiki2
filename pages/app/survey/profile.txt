@@ -1,0 +1,5 @@
+===== iPhone App - Profile =====
+
+If you need to log out of your account from the mobile device, you can do this by selecting Profile from the mobile application main menu. Additionally, if you update your password on the [[:app:web|Web Frontend]] you can tap "change password" here to resolve any password error message you may see on your iphone device.
+
+{{ :app:iphone:profile1.png?direct&300 |}}

@@ -1,0 +1,20 @@
+===== Types of Users =====
+
+Within the ohmage system, there are several types of users, each with their own set of privileges.
+
+====Supervisor====
+A supervisor is a user who is able to see and edit all data uploaded, even if it is set as private by participants. This means they can delete data that does not belong to them, or change its privacy status. Supervisors have similar powers over campaigns (they can edit or delete campaigns that they have not authored) and documents (view, edit, or delete documents that do not belong to them, even if they are private). The supervisor is the super user of the system. In a school setting, the teacher has supervisor privileges.
+
+====Author====
+An author is a user who has created a campaign. They have power over their own campaign (editing, deleting, changing the status).
+
+====Participant====
+Participants are the users who collect data. They have the campaign on their mobile phone and are contributing data to the campaign. Typically, they can see their own data (private and public) as well as shared data from other participants in the campaign. In a school setting, students have participant privileges.
+
+====Analyst====
+Analysts have access to the data that has been collected. They can view and download shared data to perform analysis on it. In a school setting, students are also analysts.
+
+====Combinations of privileges====
+As mentioned above, the supervisor has the greatest amount of power over the system. They have the abilities of authors, participants, and analysts, as well as additional powers.
+
+A student would likely be both a participant and an analyst, and if they wrote their own campaign, could also be an author.

@@ -1,0 +1,29 @@
+===== RStudio® =====
+==== What do you want to do? ====
+  * [[rstudio:general|General information about RStudio]]
+  * [[rstudio:ids|R commands for IDS]]
+  * [[rstudio:mzp|R commands for Mobilize Prime for ECS]]
+
+==== Frequently asked questions ====
+  * //My password is working on https://ids.mobilizingcs.org, but I can't log in to RStudio//
+    * If you've changed your password recently, please be patient.  The accounts on ids.mobilizingcs.org sync to rstudio once every 15 minutes.  So you may have to wait up to 15 minutes after changing your password until your new password can be used on https://ids.mobilizingcs.org/#rstudio/.
+  
+  * //My console keeps showing the "+" symbol instead of the R prompt (">"). How do I fix this?//
+    * This is most often caused by a missing close parenthesis, ")", or less often a missing close curly-brace. "}". The easiest fix is to focus on the console (act as if you're going to type something into it) and hit the ''esc'' key.
+  
+  * //My RStudio seems to be missing some functions. That is, it says:// ''Error: could not find function "foo"''.
+    * If you happen to know the package that contains the function, you can load it using the ''library'' function. For example, to load the MobilizeSimple package type: ''library(MobilizeSimple)''.
+  
+  * //I'm still having difficulty or the above methods didn't solve my problem.//
+    * [[rstudio:closing_rstudio|Follow the instructions here to quit RStudio]] and then sign back in.
+    * **When the //Quit R Session// box pops up, click on //Save// to keep the work you've already done.** 
+    * This method is actually fairly successful at solve the majority of problems.
+  
+  * //I've quit and restarted RStudio and am still having problems.//
+    * [[:contact|Contact our support team by e-mail or telephone.]]
+  
+  * //My screen is so small that it's hard for me to read.//
+    * [[rstudio:panes#other_tips_tricks|Find some tips on pane layout and window management here.]]
+  
+  * //How can I clear my console?//
+    * Focus on the console by click anywhere inside the pane. Then press ''Ctrl + L'' on the keyboard.

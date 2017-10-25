@@ -1,0 +1,8 @@
+===== iPhone App - Campaigns =====
+In order to respond to surveys, you will need to participate and download at least one campaign to your device. You can do this by selecting the campaign button from the main menu of the mobile application. You'll be taken to the "available campaigns" area you don't currently have a campaign installed.
+
+{{ :app:iphone:campaign1.png?direct&300 |}}
+
+Next, you'll need to download a campaign from the list of campaigns that are available to you. Please note that the campaign names listed in the image below are samples, those campaigns available to you are likely to be quite different. Tap the campaign to download it, and you'll be taken to the "My Campaigns" area.
+
+{{ :app:iphone:campaign2.png?direct&300 |}}

@@ -1,0 +1,19 @@
+===== Android App - Reminders =====
+
+The mobile application offers a reminder system to help users to remember to take surveys based on specific time or location triggers. You can access the reminders for a specific survey by tapping the "Reminder" icon from the Survey info page (this is shown on the survey description page). Two different types of reminders can be used. The first is a time-based reminder. 
+
+The "add time reminder" page allows you to specify a specific time reminder (ie. an alert will go off every day at 7:56AM) or a time range reminder (ie. an alert will go off every day randomly between 8:00AM and 11:00AM).
+
+{{ :app:android:reminder1.png?direct&300 |}}
+
+The "add location reminder" page allows you to specify a location, at which when you arrive, an alert will be displayed.  Please be aware that location reminders, while incredibly powerful, are quite complex.  You can specify a time range for the location reminder (ie. alerts will only go off during specific range of time, regardless of your entrance to a specified location).  You can also set a forced reminder, regardless of whether you reach this destination or not.  
+
+{{ :app:android:reminder2.png?direct&300 |}}
+
+To set a reminder location, tap "Reminder Location" and then "Manage location." The defaults are "home" and "work," although you'll have to set them yourself.  After tapping manage locations, you can select a preset location name to actually exist on your map.  Tap the location, then tap and hold on the map to drop a flag (if you aren't currently at the location, you can search for it by tapping the menu button). Tap Done once finished, and finish filling in the reminder information.
+
+{{ :app:android:reminder3.png?direct&300 |}}
+
+Now, when you return to the reminder page, you can see information about (and edit) existing reminders.  
+
+{{ :app:android:reminder4.png?direct&300 |}}

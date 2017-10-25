@@ -1,0 +1,70 @@
+===== Frequently Asked Questions =====
+==== Software requirements for using Mobilize technology ====
+**Q**: "What are the Minimum device and software requirement to participate in the Mobilize project?"
+
+**A**: Please visit [[requirements|Requirements]] for this information. 
+
+----
+==== Blank page from district system at IDS Home Page ====
+**Q**: When I try to log into the IDS Home Page from my district school system, the page does not load (is blank). Is there a way I can resolve this?
+
+**A**: Yes. This issue is likely due to a district firewall. Please contact us at support@mobilizingcs.org and we will work with your district to resolve the issue.
+----
+==== Missing Data on the IDS Page ====
+**Q**: Students have submitted surveys, but the student doesn't see their data on the web frontend.
+
+**A**: If a student happens not to see their response on the web frontend, it is likely that the response is in the 'upload queue' waiting to be uploaded. Have the student visit the upload queue and tap 'upload now'.  Note: if a survey is located in the upload queue on a device or browser, it has NOT been uploaded yet, and therefore will not show up in the web frontend.
+
+----
+**Q**: Students could see the data on the Responses tab, but not the plots on the browsers.
+
+**A**: Please make sure that students change the state of their own responses from 'private' (the default state) to 'shared.' You as the teacher can also change those privacy states to 'shared' for your students. To do this, log on to [[https://ids.mobilizingcs.org/#campaigns/|the Campaigns Tool]], choose the "Responses" tab, and click "Edit Responses" located on the top left corner of the page.   
+
+----
+==== Modify existing/default campaigns. ====
+**Q**: When I created a class, I was automatically given campaigns to use. Can I modify/delete these?
+
+**A**: Because these campaigns have special dashboards created for their data, please do *not* modify them. If you do not plan to use them, you can set their running state to "stopped" so students do not see it. If you'd like to change the questions, please download the campaign and upload your changed version with a *new* urn and name, to differentiate it from the original campaign.  Failure to do this (eg. replacing the existing campaign) may result the inability to use some of the dashboard offerings.
+
+----
+==== Browser-based survey taking trouble. ====
+**Q**: My students are experiencing issues when trying to take surveys via the browser survey taking tool.
+
+**A**: When these issues occur, please contact our technical support, as we'd really like to help in resolving these issues. Provide as MUCH information (e.g. login ID, phone platform, browser information, etc.) as possible regarding the issue in order to expedite responses!!
+
+----
+==== Survey photos in the documents tab ====
+**Q**: Some students uploaded their photos as documents (under Document tab), is this right?
+
+**A**: Document upload is not a proper channel for students to upload their data. Please direct your students to use the survey taking tool available on phones or desktop browsers for their data collection exercise. The survey taking tool on the browser will prompt students to upload a photo, instead of taking a photo.
+
+----
+
+
+==== Using students' devices ====
+**Q**: Why should I use my own smartphone in the Mobilize project?
+
+**A**: With your own phone, you don't need to carry or be responsible for an additional device. Since you will always have your phone with you, this allows you to collect data as often as you want. The data usage is very minimal (See the Q&A below). 
+
+----
+**Q**: How much data will the Mobilize phone app use?
+
+**A**: The amount of data the app uses depends on the number of surveys and images. It shouldn't need more than 5MB for 80 surveys with images. However, if you are concerned about your data plan usage, you can go to ohmage setting and set the app to only upload surveys using Wifi. Please note that this setting is not available on IOS devices.  
+
+----
+**Q**: What should I do if I have an ipod touch but no wifi access at home?
+
+**A**: Students with their own devices need to have access to either the data plan or wifi access at home. If you don't, we would recommend you to borrow a Mobilize phone to do your data collection. 
+
+----
+**Q**: How do I install apps on my android or iOS device?
+
+**A**: Please take a look at these great tutorials provided by external parties for details on getting apps installed on your [[http://www.wikihow.com/Install-an-iPhone-Application|iOS]] or [[http://www.howtogeek.com/161366/5-ways-to-install-android-apps-on-your-phone-or-tablet/|Android]] device.  Once you've done that, you can follow the process specifically for our apps: [[https://itunes.apple.com/us/app/mobilize-mwf/id601202066?mt=8|iOS]], [[https://play.google.com/store/apps/details?id=org.ohmage.mobilizingcs|Android]]. 
+
+----
+==== No devices: browser-based data collection ====
+**Q**: Can I still collect some data if I don't have a smartphone and cannot borrow one from the Mobilize project?
+
+**A**: Yes. You can provide survey data through a web browser on a desktop in your school or home. However, your data will have inaccurate or no location information. You will also have to upload an image file instead of taking a picture directly from a smartphone camera. 
+
+----

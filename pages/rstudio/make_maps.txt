@@ -1,0 +1,87 @@
+====== Making a Map ======
+
+To make a map, we use the command MakeMap(). In its most basic form, you can just give it latitude and longitude values, and it will plot them on a map
+
+<code r>
+MakeMap(labike$latitude, labike$longitude)
+</code>
+{{ :rstudio:map.jpg?direct&300 |}}
+
+The plot will appear in the Plots tab.\\ 
+
+If you want to change the color, you can do that with the parameter col (either by giving it the name of a color, or a hex value)\\ 
+
+<code r>
+MakeMap(labike$latitude, labike$longitude, col = "red")
+</code>
+{{ :rstudio:map2.jpg?direct&300 |}}
+
+Using the col argument, we can also color our plotted points based on the different levels of a factor. For example, if you want to look at the different types of bike paths in our data use
+
+<code r>
+levels(labike$type)
+</code>
+
+Now we'll color our plotted points based on each points type level
+
+<code r>
+MakeMap(labike$latitude, labike$longitude, col = labike$type)
+</code>
+{{ :rstudio:mapbytype.jpeg?direct&300 |}}
+
+By default, every time you run the function ''MakeMap()'' it will make a new map in the Plots tab. But sometimes you want to plot a couple of different things on the same map. To do that, use the parameter add in the second plot you want to add to the first. Here’s an example of how to do that\\ 
+
+<code r>
+MakeMap(NotManyBikes$latitude, NotManyBikes$longitude, col = "blue")
+MakeMap(LotsOfBikes$latitude, LotsOfBikes$longitude, col = "red", add = TRUE)
+</code>
+{{ :rstudio:twoonmap.jpg?direct&300 |}}
+
+
+==== Zooming ====
+Again, because R is a programming language, it’s often hard to do dynamic things like zooming. But, it’s possible. To begin, make a map,
+<code r>
+MakeMap(labike$latitude, labike$longitude)
+</code>
+{{ :rstudio:mapforzoom.jpg?direct&300 |}}
+
+Then, you’re going to get the opportunity to define a box that you want to zoom to. In order to do this, run the command
+<code r>
+e = drawExtent()
+</code>
+
+You can name your zoom box anything, but I used e here because it’s short and easy to remember. In the plot viewer pane, you will notice that your mouse has changed to a ’+’ that you get to click twice to define the box you want to zoom in to. After you’ve clicked twice, you should see a red box.
+{{ :rstudio:zoombox.png?direct&700 |}}
+
+Then, you need to re-run your map command, giving the additional parameter of your box. Again, I named mine e
+<code r>
+MakeMap(labike$latitude, labike$longitude, e)
+</code>
+
+{{ :rstudio:zoomin.jpg?direct&300 |}} 
+
+==== Spatial subsetting ====
+
+If you want to know which points were inside the extent (the zoom box) that you defined above, you can use the function ''SpatialSubset()''. This function will also return the indices of the points within the spatial subset you defined.
+
+<code r>
+SpatialSubset(labike$latitude, labike$longitude, e)
+## [1] 1 2 3 4 6 7 8 10 11 12 13 14 15 16 17 19 21 23 25 26 27 28 29 
+## [24] 31 32 33 34 35 36 38
+</code>
+
+This is the list of indices of the points within the ''labike'' dataset that are inside the extent you defined. As always, they will print in the console if you do not name them. If you want to save these to use later, I recommend the following code,
+<code r>
+whichsubset = SpatialSubset(labike$latitude, labike$longitude, e)
+spatialsubset = labike[whichsubset, ]
+head(spatialsubset)
+</code>
+{{ :rstudio:spatialsubset.png?direct&300 |spatial subset results}}
+
+
+==== Bubble chart ====
+If you want to make a bubble chart, you just need to specify another variable to size the bubbles by, using the parameter ''scaleby''
+<code r>
+MakeMap(labike$latitude, labike$longitude, col = labike$type, scaleby = labike$bike_count_pm)
+</code>
+{{ :rstudio:mapbytypeandsize.jpeg?direct&300 |}}

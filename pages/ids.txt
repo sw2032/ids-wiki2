@@ -1,0 +1,55 @@
+===== Introduction to Data Science (IDS) Curriculum =====
+Your one-stop page for IDS curriculum materials. Scroll down to see everything that is available.
+
+====Download the IDS Curriculum====
+
+[[https://www.mobilizingcs.org/ids-request|Introduction to Data Science v 4.0]]
+
+====Loading RStudio® Labs====
+Click [[https://wiki.mobilizingcs.org/rstudio/load_labs | HERE]] to learn how to load the labs.
+
+
+
+
+==== Videos and Electronic Resources====
+
+To access a full list of links to the videos and electronic resources referenced in the curriculum, go to our Video and Electronic Resources Links page.
+
+[[links to videos|Links to Videos and Electronic Resources]]
+
+
+
+
+====IDS FAQs====
+
+**Q: Is Introduction to Data Science AB (IDS) a core mathematics course?**
+
+A: Yes. IDS has been approved as a "c" course in the UC's A-G requirements. A "c" designation means that IDS is a mathematics course.
+
+**Q: Who approved IDS for college entrance requirements?**
+
+A: The University of California Office of the President (UCOP) approves all high school courses for A-G credit. IDS was approved by UCOP.
+
+**Q: Does IDS count only at UCLA?**
+
+A: No. UCOP approved courses apply to both UC and CSU systems.
+
+**Q: Does IDS count in the CSU system?**
+
+A: Yes. UCOP approved courses apply to the CSU system.
+
+**Q: Does IDS validate the Algebra II requirement?**
+
+A: Yes. UCOP recognizes IDS as a statistics course. A full year of the IDS course validates both Algebra II and Algebra I.
+
+**Q: Does IDS validate the Geometry requirement?**
+
+A: No. Geometry is a separate requirement.
+
+**Q: Can IDS be taken before, after, or concurrently with Algebra II?**
+
+A: It is up to each individual student to decide whether or not to take both Algebra II and IDS.
+
+**Q: Is IDS equivalent to Algebra II?**
+
+No. They are not the same; however, IDS is a statistics core mathematics course, so it validates both Algebra II and Algebra I.

@@ -1,0 +1,117 @@
+===== Wiki Home Page ====={{:casualtimesheetfy16_3.pdf|}}
+
+OK, have a taco!
+
+This wiki was created to support teachers and students throughout implementation of the Introduction to Data Science (IDS) curriculum.  Please take a look at the Navigation bar to the left to view different help options, or find the most used help pages below!
+
+----
+===== Project Goals =====
+IDS grew out of the Mobilize project, a targeted National Science Foundation Math Science Partnership project funded in 2010. The IDS curriculum is a yearlong course designed to cultivate statistical and computational thinking skills in order to prepare secondary school students to live and work in a data-rich world.  IDS aims to develop computational and statistical thinking skills so that students can access and analyze data from a variety of traditional and non-traditional sources in order to develop skills and habits of mind that allow them to use open source data to better understand their community and the world. Please check out [[http://www.mobilizingcs.org|www.mobilizingcs.org]] for more detailed information on IDS and Mobilize project history.
+
+===== Technology =====
+Through IDS, students develop their computation thinking skills through the following participatory sensing (PS) process: 
+  - **Create Campaigns (Asking Questions)**: Create their data collection projects/campaigns by choosing the topic and designing the details of the campaigns;
+  - **Collect Data**: Collect data by making key decisions about what, where, and when to report observations; 
+  - **Manage Data**: check and share their data to their peers;
+  - **Analyze and Interpret Data**: Explore, analyze and interpret the collected data. 
+IDS technology (powered by ohmage ([[http://www.ohmage.org]]) has been designed to equip STEM classrooms with an integrated and iterative learning environment for students to practice the PS process. If you are interested in adopting IDS technologies in your classroom, please check to make sure that [[requirements|the minimum software/device requirements]] are met. 
+
+Here is the available software suite: 
+
+==== 1. Create Campaign ==== 
+
+=== Web Frontend: Upload Campaign Definition XML ===
+A campaign definition can be scripted in an XML file. The web tool provides a mechanism for users to create (by manually uploading the XML file) and manage their data campaigns. 
+
+The IDS Home Page is located at [[https://ids.mobilizingcs.org/]]. Please visit the [[:app:web|IDS Home Page Guide]] or [[#Available video tutorials|Available video tutorials]] for more information.
+
+=== Campaign Authoring Tool (alpha) === 
+The Campaign Authoring tool provides a graphic user interface that guides the user through a step-by-step campaign creation process and automatically creates the project XML content that can be uploaded to the backend. Users can click to view the temporary XML content at any time during the process. On-screen tool-tips describe each configuration parameter as well as potential values for that parameter.
+
+An alpha version of the campaign authoring tool is located at [[https://ids.mobilizingcs.org/#author/]]. Please visit the [[https://wiki.mobilizingcs.org/xml|Campaign Creation Guide]] for more information on how to create your campaign. 
+
+==== 2. Collect data ====
+The mobile applications will be used most often during the project to gather data. However, there is also a browser-based survey taking tool that students without mobile devices can use to submit their data collection. Timestamp and GPS locatioin (if allowed) will be attached to each data record. 
+
+There are three different options available: 
+  * **Android devices**: A native Android application called "UCLA MobilizingCS" is available from the [[https://play.google.com/store/apps/details?id=org.ohmage.mobilizingcs|Google Play Store]]. Please visit the subsection on navigating the [[:app:android|Android App]].
+  * **iOS devices**: The mobile application called "UCLA MobilizingCS" is available from the [[https://itunes.apple.com/us/app/mobilize-mwf/id601202066?mt=8|iOS App Store]]., please visit the subsection on navigating the [[:app:iphone|iPhone App]]. 
+  * **Web-based Survey Taking tool**: available on [[https://ids.mobilizingcs.org/#survey]]. This tool allows users to complete their surveys using desktop browsers with two drawbacks: 1) there is no photo taking capability; instead, a user will be asked to upload a picture. 2) the GPS obtained from the browser might be inaccurate or unavailable. Please visit [[:app:web:surveys|Web App Data Collection Tool wiki]] on how to use the tool. 
+
+
+==== 3. Manage Data ==== 
+
+=== Campaign Monitoring Dashboard (alpha) === 
+The campaign monitoring dashboard is designed for teachers (and students) to easily monitor the data collection progress within a campaign. The activities are displayed in terms of survey responses (i.e. total responses) and participants (i.e. top collectors). 
+
+The campaign monitoring dashboard is located at [[https://ids.mobilizingcs.org/#monitor]]. Please visit the [[app:web:campaign_monitor|campaign monitor dashboard wiki]] on how to use the dashboard.  
+
+=== IDS Home Page ===
+
+The IDS Home Page allows users to view their own data and data that are shared to them. Users can also share or delete their data through the Home Page. 
+
+The IDS Home Page is located at [[https://ids.mobilizingcs.org/]]. Please visit the [[:app:web|IDS Home Page Guide]] or [[#Available video tutorials|Available video tutorials]] for more information.
+
+==== 4. Analyze and interpret data ====
+Instead of a one-size-fit-all solution, Mobilize provides a set of tools that facilitate the data exploration, visualization and analysis for different usage scenarios. All tools (except RStudio®) dynamically retrieve their data from the backend. The following tools are available.
+
+=== Interactive Dashboards ===
+Interactive dashboard allows students to interactively visualize and manipulate (i.e. filtering/subsetting) their data through a graphic user interface. It simultaneously displays multiple one-variable graphs (i.e. pie charts, bar plots, maps, wordcloud, image pane) each representing a different survey question. Users can directly interact with individual graphs to filter and zoom into the data. Specifically, users can select a range within a bar plot, choose a segment of a pie chart, or type in a specific word in a wordcloud to filter the data. Multiple filtering conditions can be applied simultaneously to further zoom into the data. Once a graph is filtered, other graphs will be immediately updated accordingly. 
+
+To access a campaign dashboard, visit [[https://ids.mobilizingcs.org/#campaigns/#dashboard]].
+
+//Public Dashboards// (i.e., Snackboard and Mediaboard): During Mobilize deployment 2012, two different datasets about snack and advertisement were collected by 13 LAUSD Exploring Computer Science (ECS) classes as part of their data collection exercise. The GPS data associated with each record was obfuscated to preserve students' privacy. The customized visualizations provide an interactive way for users to explore different data types (e.g. categorical, number, text, etc.), subsetting concept, maps, and time. The following dashboards are publicly available: 
+  * [[https://ids.mobilizingcs.org/#dashboard/#urn:public:trash|Trash visualization]]
+  * [[https://ids.mobilizingcs.org/#dashboard/#urn:public:snack|Snack visualization]]
+  * [[https://ids.mobilizingcs.org/#dashboard/#urn:public:nutrition|Nutrition visualization]]
+  * [[https://ids.mobilizingcs.org/#dashboard/#urn:public:media|Media visualization]]
+
+=== PlotApp ===
+PlotApp allows users to dynamically explore multidimensional relationships in survey data through the customizable composition of statistical plots. Students can choose up to 4 variables for their explorations. A set of fitted functions (e.g. linear, quadratic, exponential) as well as subsetting capability are also available.
+
+To access the PlotApp tool, visit [[https://ids.mobilizingcs.org/#campaigns/#plotapp]]. Please visit the [[:app:web:plotapp|PlotApp Guide]] on how to use the PlotApp tool.  
+
+
+=== RStudio® Application ===
+  * RStudio® is an open-source data analysis tool based on R, which is a programming language and software environment for statistical computing. RStudio® provides students access to a centralized R computing platform via web browsers.  RStudio® allows students to perform in depth data manipulation, analysis and visualization. 
+
+Rstudio® is located at [[http://ids.mobilizingcs.org/#rstudio]]). Please visit [[:rstudio|RStudio® Guide]] for more information. 
+
+
+==== 5. Other management tools ====
+Other management tools are the are used within the Mobilize project are: 
+
+=== Class Setup Tool ===
+A teacher, once given proper privileges, can dynamically create and manager their classes. The tool allows teachers to create and manage their student accounts through a CSV file containing student roster exported from your school district roster system. 
+
+The class setup tool is located at [[https://ids.mobilizingcs.org/#classes/]].  Please visit [[:app:web:teacher|Class Setup wiki]] on how to use the tool. 
+
+-----
+
+===== Minimum software/device requirements =====
+
+If you are interested in adopting IDS technologies in your classroom, please visit [[requirements|the minimum software/device requirements]].
+-----
+
+===== Available video tutorials =====
+  * Do and Don't : [[http://www.youtube.com/watch?v=_j8DG7hKY8A|YouTube link]], [[http://www.teachertube.com/viewVideo.php?video_id=285083|teachertube link]]
+  * IDS Home Page : [[http://youtu.be/ZlH-32fQ0ns|YouTube link]], [[http://www.teachertube.com/viewVideo.php?video_id=285082|teachertube link]]
+  * Mobilize data collection apps
+    * Mobilize android app : [[http://www.youtube.com/watch?v=BxKKB13TEqU|YouTube link]], [[http://www.teachertube.com/viewVideo.php?video_id=285078|teachertube link]]
+    * Mobilize IOS app : [[http://www.youtube.com/watch?v=y5jIjbU85rs|YouTube link]], [[http://www.teachertube.com/viewVideo.php?video_id=285080|teachertube link]]
+    * Browser-based data collection : [[http://youtu.be/LD6ONWPWFPI|YouTube link]], [[http://www.teachertube.com/viewVideo.php?video_id=285091|teachertube link]]
+  * Rstudio®
+    * [[http://youtu.be/0h2b3sO5DT8|Introduction to Rstudio® (YouTube)]]
+    * [[http://youtu.be/cFiTUg_B934|Plots (YouTube)]]
+    * [[http://youtu.be/e2XkA-_OovM|Map analysis (YouTube)]]
+    * [[http://youtu.be/kgu6a55X2JA|Text analysis (YouTube)]]
+  * Others
+    * [[http://youtu.be/f4d7FNlZ2yk|Android Basics Tutorial (YouTube)]]
+
+-----
+
+===== FAQ =====
+Please visit [[faq|Frequently Asked Questions]] for frequently asked questions. 
+
+
+All rights to RStudio® and Shiny™ are exclusive to RStudio, Inc.

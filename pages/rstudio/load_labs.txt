@@ -1,0 +1,10 @@
+==== Loading labs into the Viewer pane ====
+
+The first step to loading your desired lab is to run the //load_lab()// function:
+
+<code>
+load_lab()
+</code>
+
+Hitting enter will bring up a menu of labs to choose from. Make your selection and your lab will load into the RStudio® Viewer pane.
+

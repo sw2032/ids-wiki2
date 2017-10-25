@@ -1,0 +1,5 @@
+===== iPhone App - Upload Queue =====
+
+By selecting the Upload Queue from the mobile application main menu, you can track any surveys you have taken which have not yet been uploaded to the Mobilize web server. You can force surveys to upload by tapping the "upload all" button at the bottom of the screen, or tapping an individual survey to view more information about it, and then upload it.
+
+{{ :app:iphone:queue1.png?direct&300 |}}

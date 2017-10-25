@@ -1,0 +1,60 @@
+===== Browser-Based Surveys =====
+
+The basic features of the UCLA MobilizingCS app are also available from the web, so you can take a survey without a mobile device.  To take surveys you can click on the [[https://ids.mobilizingcs.org/#survey|Survey Taking]] Tool on the IDS Homepage or by clicking the "Surveys" dropdown arrow on the IDS Mobilize Toolbar. 
+
+{{ :app:web:survey14.png?direct&700 |}}
+
+
+
+
+
+===== Choosing a Campaign =====
+
+Click anywhere on the row corresponding to the campaign you wish to take a survey for.
+
+
+{{ :app:web:survey01.png?direct&700 |}}
+
+A trash can will appear in place of the blue arrow signifying that you have chosen that campaign. 
+ Click anywhere along the row again to isolate the campaign.
+
+{{ :app:web:survey03.png?direct&700 |}}
+
+Click on the campaign name to begin the survey.
+
+{{ :app:web:survey04.png?direct&700 |}}
+===== Taking a Survey =====
+Below is an example of the "Food Habits" survey from Unit 1.
+
+
+{{ :app:web:survey05.png?direct&700 |}}
+
+{{ :app:web:survey06.png?direct&700 |}}
+
+{{ :app:web:survey07.png?direct&700 |}}
+
+{{ :app:web:survey08.png?direct&700 |}}
+
+{{ :app:web:survey09.png?direct&700 |}}
+
+{{ :app:web:survey10.png?direct&700 |}}
+
+===== Submitting a Survey =====
+Click SUBMIT 
+  * Note: once you have clicked submit, you will no longer be able to edit any of your responses. 
+  * The thank you message is for completing the survey but you must click submit to upload it to the server.
+
+{{ :app:web:survey11.png?direct&700 |}}
+
+Click Allow
+
+{{ :app:web:survey12.png?direct&700 |}}
+
+This window appears as a confirmation that your survey was successfully submitted or stored.
+
+
+{{ :app:web:survey13.png?direct&700 |}}
+
+===== Video Tutorials =====
+If you'd like to watch a video tutorial of the browser-based survey submission, please visit this link
+  * [[http://youtu.be/LD6ONWPWFPI|Mobilize Browser Survey tutorial]] [[http://www.teachertube.com/viewVideo.php?video_id=285091|teachertube link]].

@@ -1,0 +1,20 @@
+== Links to all available Mobilize tools ==
+
+  * Data collection tools (all subjects): 
+    * The web-based application : [[https://lausd.mobilizingcs.org/survey]]
+    * Android [[https://play.google.com/store/apps/details?id=org.ohmage.mobilizingcs|"UCLA MobilizingCS"]] app and [[https://play.google.com/store/apps/details?id=edu.ucla.cens.systemsens|"SystemSens"]] app on the Play Store. 
+    * IOS [[https://itunes.apple.com/us/app/mobilize-mwf/id601202066?mt=8|"UCLA MobilizingCS"]] app on the IOS App Store.
+  * The main Mobilize frontend and visualization (all subjects) : [[https://lausd.mobilizingcs.org/web]]
+  * Campaign Authoring Tool : [[https://lausd.mobilizingcs.org/authoring]]
+  * Customized Dashboards/Visualization
+    * SnackBoard (ECS) : [[https://lausd.mobilizingcs.org/publicsnack]]
+    * AdvertisementBoard (ECS) : [[https://lausd.mobilizingcs.org/publicmedia]]
+    * TrashBoard (Science) : [[https://lausd.mobilizingcs.org/trash]]
+  * Data analysis tools: 
+    * RStudio (ECS): [[https://rstudio.mobilizingcs.org]]
+  * Teacher tools (all subjects): 
+    * The teacher class/account creation tool : [[https://lausd.mobilizingcs.org/teacher]]
+    * Account policy acceptance form : [[https://lausd.mobilizingcs.org/policy]].
+  * Help, documentations and video tutorials (all subjects): 
+    * wiki : [[https://wiki.mobilizingcs.org]]
+  

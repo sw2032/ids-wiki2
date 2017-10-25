@@ -1,0 +1,6 @@
+===== IDS Support Contact =====
+If you are having trouble using the IDS Web Tools on the IDS Home Page, the UCLAMobilizingCS Android or iOS application or RStudio please contact the IDS Support team using the information provided below.
+
+support@mobilizingcs.org 
+
+Thank you!

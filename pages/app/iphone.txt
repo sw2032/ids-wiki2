@@ -1,0 +1,13 @@
+===== UCLA MobilizingCS MWF iPhone App =====
+
+The iPhone application (powered by the ohmage-MWF project) is used during the project to gather data. The application can gather data via surveys, images and GPS tracking. Beyond just gathering data, mobile application users can view their data submissions and track the upload progress of their submissions via the Response History section.
+  * [[:app:iphone:login|Install/Login]]
+  * [[:app:iphone:campaigns|Campaigns]]
+  * [[:app:iphone:surveys|Surveys]]
+  * [[:app:iphone:queue|Upload Queue]]
+  * [[:app:iphone:profile|Profile]]
+  * [[:app:iphone:reminders|Reminders]]
+
+===== Video Tutorials =====
+If you'd prefer a video tutorial of many of these features, please visit this link:
+  * [[http://www.youtube.com/watch?v=y5jIjbU85rs|Mobilize iOS Application Tutorial]] [[http://www.teachertube.com/viewVideo.php?video_id=285080|teachertube link]]

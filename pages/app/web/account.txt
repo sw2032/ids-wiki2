@@ -1,0 +1,18 @@
+===== My Account - Web Frontend =====
+
+The My Account page allows you to:
+  * View your privileges
+  * See which classes you are associated with
+  * Change your password
+
+Click on the My Account link near the top right corner of your screen and you will be brought to a page like this ([[:app:web:faq|Why doesn't my screen look like your screen shots?]]):
+
+{{ :app:web:account1.png?direct&700 |}}
+
+====Change your Password====
+
+To change your password, click on the Change Password button:
+
+{{ :app:web:account2.png?direct&700 |}}
+
+Then, enter your old password, your new password, and confirm your new password before hitting submit. Remember that your new password must be "strong," that is, include at least one capital letter, one number and one symbol, like !@#$%^&*(). For information on why strong passwords are important, [[http://blogs.wsj.com/digits/2010/12/13/the-top-50-gawker-media-passwords/|read about]] the Gawker media password leak.

@@ -1,0 +1,9 @@
+===== iPhone App - Reminders =====
+
+The mobile application offers a reminder system to help users to remember to take surveys based on specific time triggers. You can access the reminders by tapping the "Reminders" icon from the dashboard.
+
+{{ :app:iphone:reminder1.png?direct&300 |}}
+
+The "add reminder" page allows you to specify a specific time reminder (ie. an alert will go off every day at 7:56AM) as well as a few other options for the reminder.
+
+{{ :app:iphone:reminder2.png?direct&300 |}}

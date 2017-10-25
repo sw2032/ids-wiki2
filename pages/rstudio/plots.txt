@@ -1,0 +1,195 @@
+====== Plots ======
+
+R has an awesomely powerful function called ''plot()'', which will try to cleverly produce an appropriate plot depending on the type of data it is given. For example,
+<code r>
+plot(labike$type)
+</code>
+
+{{ :rstudio:plot1.jpeg?direct&300 |Plot 1}}
+
+creates a bar plot ([[rstudio:bar_plot|what's a bar plot?]]),
+
+<code r>
+plot(labike$type, labike$ped_count_pm)
+</code>
+
+{{ :rstudio:plot2.jpeg?direct&300 |Plot 2}}
+
+creates a box plot ([[rstudio:box_plot|what's a box plot?]]),
+
+and 
+
+<code r>
+plot(labike$bike_count_pm, labike$ped_count_pm)
+</code>
+
+{{ :rstudio:plot3.jpg?direct&300 |Plot 3}}
+
+creates a scatter plot ([[rstudio:scatter_plot|what's a scatter plot?]]).
+
+If you want more control over which type of plot you create, there are also specifically-named functions for each plot type, which will be discussed in subsequent sections.
+
+==== Bar plots ====
+
+To make barplots, use the ''barplot()'' command. This command is a little strange– it won’t take a variable as it is, first you need to sum up how many observations fall into each category with the ''table()'' command. You can put it all together like this,
+<code r>
+barplot(table(cdc$gender))
+</code>
+
+{{ :rstudio:barplot1.jpg?direct&300 |Bar plot 1}}
+<code r>
+barplot(table(cdc$gender, cdc$general_health))
+</code>
+
+{{ :rstudio:barplot2.jpeg?direct&300 |Bar Plot 2}}
+
+For this bar plot, you might want a legend to tell you which part of the bar represents Males and which represents Females. If so, see [[#Adding a legend]]. 
+
+To learn more about bar plots and how to interpret them, [[rstudio:bar_plot|learn about bar plots]]. 
+
+====Mosaic plots====
+Mosaic plots also take tables as arguments, but they create a different effect than a barplot,
+<code r>
+mosaicplot(table(cdc$gender, cdc$eat_fruit))
+</code>
+
+{{ :rstudio:mosaicplot.jpg?direct&300 |Mosaic Plot}}
+
+Since these labels are hard to read, you might want to consider rotating them with ''las'', as described in [[#Rotating labels]]. 
+
+For more about mosaic plots and how to interpret them, [[rstudio:mosaic_plot|learn about mosaic plots]].
+
+==== Histograms ====
+
+The command to make histograms is ''hist()'',
+<code r>
+hist(cdc$weight)
+</code>
+
+{{ :rstudio:histogram.jpg?direct&300 |Histogram}}
+
+For more about histograms and how to interpret them, [[rstudio:histogram|learn about histograms]].
+
+==== Box plots ====
+
+To make boxplots, use ''boxplot()'',
+<code r>
+boxplot(cdc$weight)
+</code>
+
+{{ :rstudio:boxplot1.jpg?direct&300 |Box Plot 1}}
+
+<code r>
+boxplot(cdc$weight ~ cdc$gender)
+</code>
+
+{{ :rstudio:boxplot2.jpg?direct&300 |Box Plot 2}}
+
+For more about box plots and how to interpret them, [[rstudio:box_plot|learn about box plots]].
+
+==== Adding a line to a plot ====
+Sometimes you want to add a line to a plot, maybe to delineate where the mean is. The ''abline()'' command allows you to do this.
+<code r>
+￼hist(cdc$weight)
+abline(v = mean(cdc$weight, na.rm = TRUE), col = "red")
+</code>
+{{ :rstudio:abline.jpg?direct&300 |abline}}
+
+Remember that for the ''cdc'' data, we need to specify ''na.rm=TRUE'' in the ''mean()'' function.
+
+
+==== Changing things about plots ====
+R allows you control over every aspect of your plot, you just need to know how to change things!
+
+=== Changing axis labels ===
+Almost every plot allows you to specify x- and y-axis labels, so they are easier to read than the R defaults. To do this, use the parameters ''xlab'' and ''ylab''
+<code r>
+plot(labike$bike_count_pm, labike$ped_count_pm, xlab = "Number of Bikes", ylab = "Number of pedestrians")
+</code>
+
+{{ :rstudio:changelabels.jpg?direct&300 |Change axis label}}
+
+=== Adding a title ===
+
+You can also add a title to your plot by using the parameter ''main'',
+<code r>
+plot(labike$bike_count_pm, labike$ped_count_pm, main = "Relationship between walkers and bikers")
+</code>
+
+{{ :rstudio:changetitle.jpg?direct&300 |Change title}}
+
+=== Changing colors ===
+
+To change colors, just use the parameter ''col'', as in 
+<code r>
+plot(labike$bike_count_pm, labike$ped_count_pm, col = "blue")
+</code>
+{{ :rstudio:changecolors1.jpg?direct&300 |Change Colors 1}}
+
+If you want to get more specific than a word describing a color, you can also pass it hex values, like
+<code r>
+plot(labike$bike_count_pm, labike$ped_count_pm, col = "#f492a9")
+</code>
+
+{{ :rstudio:changecolors2.jpg?direct&300 |Change Colors 2}}
+
+You can change the color of any plot using ''col''
+<code r>
+plot(labike$type, col="purple")
+</code>
+{{ :rstudio:purpleplot.jpeg?direct&300 |Colored barplot}}
+
+Or, if you want, you can give R a series of colors to use in a plot using a [[rstudio:Putting_things_together#creating_vectors|vector]]
+<code r>
+plot(labike$type, col=c("purple", "green"))
+</code>
+{{ :rstudio:purplegreenplot.jpeg?direct&300 |Multicolor plot}}
+
+
+
+=== Changing plot symbols ===
+If you’re making a scatterplot, you can change the symbols that are plotted at each point by using the parameter ''pch''. There are 19 possible symbols, and they are numbered from 0 to 18. Try some of them out! The default is often 20, but there are lots of fun ones,
+<code r>
+plot(labike$bike_count_pm, labike$ped_count_pm, pch = 11)
+</code>
+
+{{ :rstudio:changesymbols.jpg?direct&300 |Change Symbols}}
+
+=== Changing the size of plot symbols ===
+If you want to make plot symbols larger or smaller, you can use the parameter ''cex''. This parameter tells R how much to scale the points up (or down). For example, ''cex=2'' would make the points twice as large, and ''cex=0.5'' would make them half as small. 
+
+=== Rotating labels===
+Sometimes, it’s useful to rotate the labels on something. To do so, use the parameter ''las.'' If you use ''las=2'', all the labels will be parallel to the axes. 
+<code r>
+mosaicplot(table(cdc$gender, cdc$eat_fruit), las = 2)
+</code>
+
+{{ :rstudio:rotatelables.jpg?direct&300 |Rotate Labels}}
+You can also try ''las='' 0, 1, or 3. To see the R documentation for ''las'', see
+<code r>
+help(par)
+</code>
+
+=== Adding a legend ===
+To add a legend to your plot, use the parameter ''legend=TRUE''. 
+<code r>
+barplot(table(cdc$gender, cdc$general_health), legend=TRUE)
+</code>
+
+{{ :rstudio:barplotwithlegend.jpeg?direct&300 | Add legend}}
+
+=== And even more! ===
+There are many, many more things that can be specified about plot options. To learn more about them, check out the documentation for par(), the set of graphical parameters.
+<code r>
+help(par)
+</code>
+
+==== Saving plots ====
+The plots pane allows you to Export plots, that is, to save them as image files for use in PowerPoint presentations or Scratch projects. To do this, just click on the “Export” button at the top of the pane and select “Save Plot as Image”
+{{ :rstudio:rstudiosaveplot1.png?direct&700 |Save Plot as Image}}
+A popup will appear, 
+{{ :rstudio:rstudiosaveplot2.png?direct&700 |Popup for saving images}}
+You can choose the filetype you want (the default is png, but you can choose jpg, tiff, bmp, or several others) and name your plot (the default is Rplot, not very descriptive!). Then, click “Save.”
+
+This is also the place to adjust the aspect ratio of your plot if it's too skinny, wide, tall or short. Reasons to do this include if all your plot labels aren't showing, or if you want all the plots in your PowerPoint presentation to be a consistent shape. To change the aspect ratio, just adjust one or both of the aspect ratio numbers and click "Update Preview" to see your changes:
+{{ :rstudio:rstudiosaveplot3.png?direct&700 |Changing aspect ratio}}

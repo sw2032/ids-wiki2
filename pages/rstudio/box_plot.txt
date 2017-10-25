@@ -1,0 +1,25 @@
+====== Box Plot ======
+
+
+A boxplot shows you a summary of data by displaying the median, 25th and 75th percentiles, the minimum and maximum, and the outliers. This is a lot of information! Lets look at an example:
+
+Using the ''boxplot()'' command, 
+<code r>
+boxplot(cdc$weight)
+</code>
+
+{{ :rstudio:boxplot1.jpg?direct&400 |Box Plot 1}}
+
+This is a boxplot of a variable called ''weight''. The median is the dark bar in the middle of the box. So, the median weight is perhaps 65 (65 //what// though? Pounds?). Then, the 25th percentile is the line below the median (sometimes this is called the 1st quartile). Perhaps it's 55. This means that 25 percent of the data is between 55 and 65. Then, there's a vertical dotted line down to another horizontal line at the bottom. This line looks to be around 35, and it represents the minimum value for ''weight''. Above the median, it's much the same. The line above the median is the 75th percentile (sometimes called the 3rd quartile). It looks to be about 75. Again, 25% of the data falls between the median and the 75th percentile, so one-quarter of the weights are between 65 and 75. Again, there's a vertical line that goes up to another horizontal line, but this time, the horizontal line is not the maximum. There is a formula that is used to decide where to put the top and bottom lines, and any values in the data that are above or below those lines are called "outliers." The formula is 1.5 times the interquartile range (you might have learned about this in math class) but we don't need to calculate it ourselves, because R does it for us. 
+
+In this case, we can see that there are a //lot// of outliers. That's what all those dots are above the top line. The largest value represented by a dot is probably 180. Again, 180 //what//, though? It seems like there might be some problems with units in this data set. 
+
+You can also make sets of boxplots, and use them to compare different categories. 
+
+<code r>
+boxplot(cdc$weight ~ cdc$gender)
+</code>
+
+{{ :rstudio:boxplot2.jpg?direct&400 |Box Plot 2}}
+
+In this case, we're comparing the weights of males and females in the dataset. Notice that the median bar for males is higher than the median bar for females. This is kind of what we expect, because men are taller and heavier than women on average. But, there's a lot of overlap of the boxes, and the minimums both look the same. 

@@ -1,0 +1,29 @@
+A data //campaign// can be configured by a //campaign definition// which is an XML file describing the structure and properties of the data to be collected. A campaign contains a set of //surveys//, each of which is a sequence of messages or prompts to be displayed. A //message// (e.g. ''Please get up and walk for 2 minutes.'') is a brief communication which does not require user input. A //prompt// solicits a response from the user; either an answer to a question (e.g. ''Did you exercise today?''), or some other form of input (e.g. ''Take a picture of your snack wrapper''). Our software supports a rich set of prompt types including: 1) single/multiple choices with the option for users to define additional choices; 2) number; 3) free-text; 4) timestamp; 5) multimedia such as pictures, videos or audios; and 6) a //remote activity// that launches a third party application, such as a game app to assess attention. Each prompt and message can optionally set a condition based on previous prompt responses that determines whether or not it should be displayed. For instance, a prompt ''Did you take your medication before, after, or without food?'' can be set to display if the user responded ''Yes'' to the previous prompt ''Did you take medication X this morning?'' This capability enables a more interactive and responsive survey answering experience. **For IDS, we will only be using a subset of prompts including single-choice, number, free-text, and photo.** 
+
+There are two different ways to create a campaign: 
+  * Manual campaign creation by creating the campaign XML file and upload to the server.
+  * Campaign authoring tool that interactively guide the user through the campaign creation process.  
+
+==== Manual Campaign Creation ====
+There are 2 steps required:
+  - Create: Users manually create an XML file using any editor of their choice. The campaign XML file has to be well-formed and conform to [[https://github.com/cens/ohmageServer/wiki/Campaign-Definition|the ohmage campaign definition schema]]. The following ppt file summarizes the campaign properties and how to create a simple campaign with the XML. For a quick and simple creation, we recommend taking an XML example below as a template and modify the content where necessary. 
+    * [[http://web.ohmage.org/~hongsudt/slides/CampaignCreation_MZP_PD_2013.pptx|How to create your own campaign (ppt)]] 
+  - Upload: After the campaign definition is created, please login to [[https://lausd.mobilizingcs.org|the Mobilize Web Frontend]], select the campaign tab, then create campaign to upload your campaign. 
+
+== Campaign XML Examples ==
+A list of XML templates are provided below. Users can download any of these files and modify the content where necessary. We leave some comments at the top to help guide you with the modification. 
+  * [[http://web.ohmage.org/mobilize/resources/mzp/ShortSnack.xml|Short Snack Campaign]]: This campaign contains four questions. Each question demonstrates different basic prompt type (i.e., single_choice, number, text, and photo).
+  * [[http://web.ohmage.org/mobilize/resources/mzp/BirdSighting.xml|Bird Sighting Campaign]]: This campaign demonstrates the use of basic prompt types, but contains more questions. 
+
+
+Note: For more advanced campaign features, visit [[https://github.com/ohmage/server/wiki/Campaign-Definition#wiki-examples|this page]] for examples. 
+
+== additional resources related to XML ==
+  * XML terms and grammar: A great resource for these is the [[http://www.w3schools.com/xml/default.asp|W3Schools page on XML]].
+  * Text editors: You can get started editing with only a [[http://en.wikipedia.org/wiki/Text_editor|text editor]], but we'd suggest using a few well-known text editors that can do XML [[http://en.wikipedia.org/wiki/Syntax_highlighting|syntax highlighting]], which will greatly help new users understand the flow of XML. Examples of these editors are: 
+    * Windows: [[http://notepad-plus-plus.org/|notepad++]]
+    * Mac OS: [[http://www.barebones.com/products/textwrangler/|Text Wrangler]]
+    * On-line XML editors: [[http://collabedit.com/]], [[http://www.xslfiddle.net/]], [[http://icecoder.net/]]
+
+==== Campaign Manager (alpha version) ====
+[[https://ids.mobilizingcs.org/#campaigns/]] provides an interactive Graphic User Interface (GUI) for the entire campaign creation process. [[https://wiki.mobilizingcs.org/app/authoring|The campaign authoring wiki page]] provides the how-to and tutorial. 

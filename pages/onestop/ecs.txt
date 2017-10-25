@@ -1,0 +1,46 @@
+===== Mobilize Prime 2013-14: ONESTOP =====
+This wiki provides a single page with a step-by-step process (and all necessary links) required to participate in the Mobilize unit. 
+
+----
+This content is currently in the process of being updated for the ECS 2013-2014 Mobilize Prime deployment, so check back frequently for new information!
+----
+
+
+==== Step 1 - Fill Out Consent Forms ====
+  * You will be asked to sign a consent form before implementing the unit.  Parents will be provided with Information Sheets (English and Spanish versions) that describes the curriculum and what to expect their child to be doing during the Mobilize unit. 
+
+==== Step 2 - Students Can Easily Determine the Compatibility of their Device & the Mobilize app ====
+  * The Mobilize app now supports various Android smartphones and IOS devices (iPhones, iPod touches with camera). Therefore, this year we're encouraging students to use their own devices.  
+    * We've developed a web program that will allow students to find out very quickly if their devices are supported. Please take a few moments during class to have students visit the site below on THEIR devices and answer a few questions to help us coordinate Mobilize loaner devices. Students without mobile devices should submit this questionnaire via desktop browsers. 
+  * http://is.gd/mobilize2013
+
+==== Step 3 - Students Take the "Pre-Q" ====
+  * A Mobilize staff member will come to your classroom to administer the student pre-questionnaire (or "pre-q") BEFORE you begin the unit. 
+  * The pre-q includes a series of data-related tasks as well as short survey about students' attitudes towards computer science and should take approximately 30 minutes (1 class period including directions, passing out pre-q's, etc.) to complete. 
+  * Teachers will be asked to complete a short pre-survey during the same class period.
+  * Contact Laquita Stewart at stewart@cse.ucla.edu or 310-794-9151 to schedule a “pre-q” visit. 
+
+==== Step 4 - Phones and Accounts are Distributed ====
+Once you've completed Step 3, we can distribute loaner phones, and students' Mobilize and RStudio account information. The distribution process will work as follows:
+  - The Mobilize team will deliver the loaner phones, one box per class. The box will also contain the account names and passwords for your students.
+  - You will sign, upon receipt, a single inventory sheet per class.
+  - An {{:onestop:phonecheckoutform-landscape.pdf|equipment sign-out sheet}} will be included in the box to facilitate sign-out of devices to students. Students will need to sign their names and provide a contact phone number at the row associated with the devices that are assigned to them. After the phones are signed out, please take a picture of the sign-out sheet and send it to us. The information is needed to track the phones to their responsible holders.  
+  - Each bagged device will contain (1) HTC MyTouch 4g slide, (1) HTC Charger, (1) "Do's and Do not's" quicksheet. The bags can be discarded. 
+  - We suggest that when you distribute devices to your students, you show our 60-second Do's and Do not's video
+    * http://youtu.be/ufDbDBuKxUc
+
+For students using their own devices, they can install the Mobilize apps via the Google Play Store or iOS App Store:
+  * Google Play Store: 
+    * Search for "UCLA MobilizingCS" app or download from [[https://play.google.com/store/apps/details?id=org.ohmage.mobilizingcs|play store]]
+    * Search for "SystemSens" app or download from [[https://play.google.com/store/apps/details?id=edu.ucla.cens.systemsens|play store]]
+  * iOS App Store:
+    * Search for "Mobilize MWF" app or download from [[https://itunes.apple.com/us/app/mobilize-mwf/id601202066?mt=8|app store]]
+  * These links can also be obtained easily from http://is.gd/mobilize2013
+
+Additionally, visit http://wiki.mobilizingcs.org/home for Mobilize technology description, as well as, online and video tutorials. 
+
+==== Step 5 - After Data Collection Period (1 month), Phones are Returned ====
+  * After the end of data collection phase (no longer than 4 weeks), please gather all loaner devices to be returned. The phones should be returned promptly so they can be prepped in time for other classes.   
+
+==== Step 6 - At the End of Unit, Students Take the "Post-Q" ====
+  * At the end of the unit, a Mobilize staff member will come to your classroom to administer the student post-questionnaire (or "post-q"). 

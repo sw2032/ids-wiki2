@@ -1,0 +1,108 @@
+===== The PlotApp =====
+
+PlotApp allows users to dynamically explore multidimensional relationships in survey data through the customizable composition of statistical plots. Students can choose up to 4 variables for their explorations. A set of fitted functions (e.g. linear, quadratic, exponential) as well as subsetting capability are also available.
+
+To access the PlotApp tool, visit https://lausd.mobilizingcs.org/landing/#plotapp/ .
+
+{{ :app:web:plotapp.png?300|}}
+
+
+==== Benefits of using the PlotApp ====
+
+The main benefit of using the PlotApp is the added flexibility in analyzing data. Users can choose up to two variables to use on the axes and then add additional options, such as: subsetting, coloring/sizing/faceting by an additional variable or adding a trend-line. 
+
+The use of the PlotApp is also much more intuitive than its predecessor, the Mobilize Web Frontend. Rather than having to choose a plot-type first and then choosing the variables to plot, the PlotApp takes variable selected by the user and then decides which plot best corresponds to the user's variable choices. At the bottom of each plot, users will also find a variety of summary statistics that correspond to their variable selections.
+
+Additionally, files may be saved in three different file formats: //pdf//, //svg// and //png//.
+
+==== Navigating the features ====
+
+=== Required selections ===
+
+{{ :app:web:sidebar.png?200|}}
+
+== Campaign ==
+
+To begin using the PlotApp, users must first log-in and then select the campaign for which they would like to analyze data for. Users can analyze data from any campaign that they access to take surveys for.
+
+== Start date ==
+
+By default, the PlotApp chooses a date that begins soon enough so as to encompass all surveys collected for any campaign. Users who wish to limit themselves to looking at data after a specific date should click on the start date and select the day from the calendar which pops up.
+
+== End date ==
+
+Similar to the start date feature, the PlotApp chooses the latest date possible in order to show all surveys possible. Users may click on the date and choose a date further in the past, by using the pop up calendar window, if they so desire.
+
+== Survey ==
+
+
+
+== X axis ==
+
+Users may specify a variable for the x-axis by selecting one from the drop-down menu. In addition to variables based on responses from the particular campaign, users may also choose variables such as the //date// a survey was submitted, the //day// of the week it was submitted, as well as the the //time//, //user// or //privacy// setting of the survey.
+
+== Y axis ==
+
+By default, the y axis will show the number of responses submitted for the variable selected for the x axis. The type of plot will then change depending on whether the variable selected for the x axis is a categorical or numerical variable. 
+
+Users may also choose a second variable to create a plot relating the x and y variables.
+
+=== Optional selections ===
+
+The following options may also be utilized by users seeking to add additional complexities to their plots. Users should note, not all options will be available for all combinations of x and y variables.
+
+== Color (optional) ==
+
+After selecting an x and/or y variable(s), users may opt to color their plots based on their observations values of a single categorical variable. Color palettes are predetermined for the number of levels of the variable selected. 
+
+== Size (optional) ==
+
+Similar to color, users may select a numerical variable in the drop down menu to scale the size of points in their plots.
+
+== Facet (optional) ==
+
+Faceting can be thought of as //splitting// one plot into many where each plot contains only the values of a single level of a categorical variable. So for any set of x and y variables chosen by the user, faceting on a categorical variable will draw a plot of all x and y values that belong to category "a", an additional plot of all x and y values that belong to category "b" and so on.
+
+== Fit Line ==
+
+Users may opt to add a fitted line/curve to their data. Fitted lines are created utilizing the method of least squares. Fitted curves maybe drawn for polynomials up to and including degree 5. 
+
+Higher degree polynomials should only be fit when users feel there is an absolute need. Often times, fitting higher degree polynomials results in over-fitting, that is users trying to explain 'noise' which is actually unexplainable.
+
+== Subset/Filter (optional) ==
+
+Using some simple rules (see Rules for subsetting below) users may subset their data to only include variables whose values follow some user-defined rule.
+
+==== Rules for subsetting ====
+
+Subsetting requires 3 rules be followed so as to avoid errors:
+
+- A variable: Variables should be spelled precisely as they are found in the drop down menus. Spacing, capitalization and spelling all matter. The variable selected will be the variable used to subset with.
+
+- A logical symbol: Users may choose any of the following symbols to relate the user specified variables and values.
+
+  - "==": "Variables must match specified values exactly."
+  - "<=": "Variables must be less than or equal to the specified value."
+  - "<": "Variables must be strictly less than the specified value."
+  - ">=": "Variables must be greater than or equal to the specified value."
+  - ">": "Variables must be strictly greater than the specified value."
+  - "!=": "Variable may be any value EXCEPT the value specified.
+
+- A value: Must be a number if using a numerical variable or a specific level of a categorical variable. Similar to variables, the level specified must be spelled precisely as they are found in the data itself.
+
+=== Subsetting based on more than one rule ===
+
+Users may further subset their data using the "&" ("and") and "|" ("or") symbols. The "&" symbol specifies that only values that follow _all_ of the specified rules will be shown. The "|" symbol specifies that the values must follow _any_ of the specified rules.
+
+=== Examples ===
+
+The following are examples of subsetting using the //Nutrition// data:
+<code>
+factsSaturatedFat < 100
+</code>
+<code>
+factsSaturatedFat < 100 & factsCalories < 1000
+</code>
+<code>
+healthyLevel == 1 | healthyLevel > 3
+</code>

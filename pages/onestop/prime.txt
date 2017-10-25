@@ -1,0 +1,48 @@
+===== Mobilize Prime 2013-14: ONESTOP =====
+This wiki provides a single page with a step-by-step process (and all necessary links) required to participate in the Mobilize unit. 
+
+----
+
+----
+
+
+==== Step 0 - Fill Out Consent Forms/Receive Information Sheets ====
+  * {{:wiki:document-sign-2.png?nolink&20|}} Teachers will be asked to sign consent forms before implementing the unit.  
+  * Students will be provided with Information Sheets (English and Spanish versions) that describes the curriculum and what their child to be doing during the Mobilize unit. 
+
+
+==== Step 1 - Creating your classes and student accounts ====
+  * {{:wiki:computer-3.png?nolink&20}} Teachers make sure that they and their students will have access a computer lab that satisfies the [[https://wiki.mobilizingcs.org/requirements|minimum software requirements]]. 
+  * To prevent a blank screen issue due to the LAUSD firewall, please follow [[http://www.lausd.k12.ca.us/lausd/help_files/cert_filter.htm| the LAUSD instructions for installing their root certificate]] on your and your students' browsers. 
+  * {{:wiki:mobilize_finallogo_cmyk.png?nolink&60|}} Each Mobilize teacher creates their own classes and student accounts by following [[https://wiki.mobilizingcs.org/app/web/teacher|the Mobilize Class Setup Process]]. 
+ 
+==== Step 2 - Students Install the Mobilize App and Login ====
+  * {{:wiki:logo.png?nolink&25|}} The Mobilize app now supports various Android smartphones and IOS devices (iPhones, iPod touches with camera). Students are asked to use their own devices for data collection exercises. **Please note that the network consumption of the app is very minimal**. Students can install the Mobilize apps via the Google Play Store or iOS App Store:
+    * Google Play Store: 
+      * Search for "UCLA MobilizingCS" app or download from [[https://play.google.com/store/apps/details?id=org.ohmage.mobilizingcs|play store]]
+      * Search for "SystemSens" app or download from [[https://play.google.com/store/apps/details?id=edu.ucla.cens.systemsens|play store]]
+    * iOS App Store:
+      * Search for "UCLA MobilizingCS" app or download from [[https://itunes.apple.com/us/app/mobilize-mwf/id601202066?mt=8|app store]]
+    * For students that do not have smartphones, go to the Mobilize web-based application at [[https://lausd.mobilizingcs.org/survey]] to collect data.
+  * Visit http://wiki.mobilizingcs.org/home for Mobilize technology description, as well as, online and video tutorials. 
+  * {{:wiki:mobilize_finallogo_cmyk.png?nolink&60|}} Distribute user names and passwords. To obtain user names and passwords, login to the Mobilize teacher tool at [[https://lausd.mobilizingcs.org/teacher]], select an appropriate class, then click on the "print" button. 
+
+==== Step 3 - Implement Mobilize Prime Lessons ====
+  * {{:wiki:mobilize_finallogo_cmyk.png?nolink&60}} The following tools are available for the lessons. 
+    * Mobilize web frontend at [[https://lausd.mobilizingcs.org/web]] for campaign upload, data collection, data management, data exploration. 
+    * Public SnackBoard at [[https://lausd.mobilizingcs.org/publicsnack]] to interactively explore snack data collected by Mobilize students during Spring 2012.
+    * Public AdvertisementBoard at [[https://lausd.mobilizingcs.org/publicmedia]] to interactively explore advertisement data collected by Mobilize students during Spring 2012.
+    * Campaign Authoring Tool at [[https://lausd.mobilizingcs.org/authoring]] to create campaigns. The following wiki provides [[https://wiki.mobilizingcs.org/xml|how-to]]. 
+    * Rstudio at [[https://rstudio.mobilizingcs.org/authoring]] for in-depth analysis. 
+Note: The following [[https://wiki.mobilizingcs.org/urls|link]] provides a complete list of tools. 
+
+==== Step 4 - Complete Post-Assessment on Survey Monkey ====
+  * Please ask students to provide some feedback. We will provide more information later. 
+
+==== Step 5 (Post Lesson) - Upload students' projects ====
+  * {{:wiki:mobilize_finallogo_cmyk.png?nolink&60|}} Login to the Mobilize web frontend at [[https://lausd.mobilizingcs.org/web]], then click on the "Document" tab to upload students projects:
+    * Click "Upload Documents"
+    * Click "Choose File" and select the file from your local system
+      * If you'd like to test the functionality, {{:onestop:blue_parent_info_sheet_approved_09.05.13.pdf|here's a sample file to use}}
+    * Click "Add Classes" and select one of your classes
+    * Click "save" to finish upload.

@@ -1,0 +1,9 @@
+===== iPhone App - Surveys =====
+
+The main purpose of the mobile application is to take and submit surveys/responses. This is a very straightforward process and is detailed below. First, when you tap on the survey icon from the mobile application main menu, you will be asked which survey you would like to take. If you don't currently have any surveys on this screen, you can add some via the [[:app:iphone:campaigns|Campaigns]] area. Tap a survey to begin taking it!
+
+{{ :app:iphone:survey1.png?direct&300 |}}
+
+Now, you can take the survey.  Below is an example of the "Snack" survey from the ECS Unit 5 curriculum.  Once you have completed the survey, tap the "submit" button.  Note: once you have tapped submit, you will no longer be able to edit any of your responses.
+
+{{:app:iphone:survey3.png?direct&150|}}{{:app:iphone:survey4.png?direct&150|}}{{:app:iphone:survey5.png?direct&150|}}{{:app:iphone:survey6.png?direct&150|}}{{:app:iphone:survey7.png?direct&150|}}{{:app:iphone:survey8.png?direct&150|}}{{:app:iphone:survey9.png?direct&150|}}{{:app:iphone:survey10.png?direct&150|}}{{:app:iphone:survey11.png?direct&150|}}

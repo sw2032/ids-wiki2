@@ -1,0 +1,33 @@
+===== Explore Data - Web Frontend =====
+
+The Explore Data tab allows you to:
+  * Create simple plots of shared data in order to get a snapshot of what is happening in a campaign
+  * Keep tabs on participants in a campaign to ensure they are submitting enough responses
+
+When you click on the tab, you will see a screen like this:
+
+{{ :app:web:exploredata1.png?direct&700 |}}
+
+As the arrow suggests, to begin looking at plots first choose a plot type from the list. Click on the name of a category to expand the list of options. Here, we've clicked on Survey Response Counts and then selected Shared Responses:
+
+{{ :app:web:exploredata2.png?direct&700 |}}
+
+The Campaign dropdown is now alerting us that we need to choose a campaign. After choosing one and clicking Draw Plot, a histogram of the shared responses over time will be produced:
+
+{{ :app:web:exploredata3.png?direct&700 |}}
+
+The same process can be repeated for any combination of campaign and plot, and the Start Date and End Date fields can be used to limit the timerange of the plot. Many of the plot types are flexible, meaning that they will produce different plots depending on whether the data used in creating the plot is categorical or continuous.
+
+====Leader Board====
+One of the most useful plots for teachers to consult is the leader board. The leader board can allow a supervisor to keep tabs on the amount of data participants are submitting and encourage them to increase their submissions if they are falling short of some predetermined number of responses.
+
+{{ :app:web:exploredata4.png?direct&700 |}}
+
+The usernames of every member of the campaign are listed, along with the number of private and shared responses, as well as a total number of responses. Because teachers have [[:app:web:usertypes|supervisor]] privileges, they can see counts of private responses for each participant, but participants will not be able to see this count.
+
+====Map====
+Another very useful plot that can be created here is a map. By selecting the Geographical plot type as well as a campaign, a map of where each response was submitted appears:
+
+{{ :app:web:exploredata5.png?direct&700 |}}
+
+Each pin is an individual data point, and the circles with numbers represent clusters of responses. Clicking on a cluster zooms in to the cluster to see the pins in more detail.

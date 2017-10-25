@@ -1,0 +1,5 @@
+====== Frequently Asked Questions (FAQ) ======
+
+===== All the labels aren't showing in my plot, what can I do? =====
+
+The first thing to try is clicking and dragging the Plots pane so it's a little larger. Just grab the border between the Console pane and the Plots pane, and drag it toward the left (or, grab the border between the Workspace pane and the Plots pane and drag it up). This will probably make the rest of the labels appear. If there are many labels (say, more than 4 or 5 text labels), using the ''las'' parameter will help (see "Rotating labels" in the [[rstudio:plots#changing_things_about_plots|changing things about plots]] section). Finally, if you just want the labels to be visible in the saved version of your plot, adjust the aspect ratio when you are [[rstudio:plots#saving_plots|saving your plot]]. 

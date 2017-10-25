@@ -1,0 +1,15 @@
+===== Classes - Web Frontend =====
+
+The Classes tab allows you to:
+  * View the list of users associated with a particular class
+  * See the names and ID numbers of each participant, as well as their username (if you are a [[:app:web:usertypes|supervisor]])
+
+When you click on the classes tab, it will look like this ([[:app:web:faq|Why doesn't my screen look like your screen shots?]]):
+
+{{ :app:web:classes1.png?direct&700 |}}
+
+To view a class, click on the link with its name. That will take you to the following screen:
+
+{{ :app:web:classes2.png?direct&700 |}}
+
+This page will tell you the class name, the URN associated with the class (a unique identifier), a description of the class, and then provide you with a list of members. If you are a supervisor, it will show you the names and IDs of each user, but if you are not, it will only show the list of usernames.

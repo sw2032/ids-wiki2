@@ -1,0 +1,9 @@
+===== Campaign States =====
+
+Campaigns have several states associated with them. The first is a running state, the other is a privacy state.
+
+====Running state====
+The running state of a campaign is either "running" or "stopped." If a campaign is running, the classes associated with it can continue collecting data and contributing it to the campaign. If a campaign is stopped, no more data can be added to it. The data which was collected previously will continue to be available on the server and web front end, and the classes associated with it will still see the campaign listed in their [[:app:web:campaigns|campaigns tab]], but no changes can be made. Generally, campaigns should be kept running. However, if you want to collect data for a certain amount of time and then stop allowing contributions (for example, so that everyone in the class is working with the same data set), that can be a good reason to stop a campaign. If you do not want your students seeing a particular campaign at all, you may want to delete the campaign completely before giving the students access to the web front end.
+
+====Privacy state====
+The privacy state of a campaign is either "shared" or "private." If a campaign is shared, all the analysts associated with the campaign can view and export the data that is being collected. If a campaign is private, the only people who can view the campaign or export the data associated with it are the authors of the campaign. This might be useful for a campaign where the data collectors do not care much about the data itself.

@@ -1,0 +1,87 @@
+===== IDS Class Setup Process =====
+There are 5 initial steps that IDS teachers will use to generate classes and accounts for their students.
+
+The instructions below show the step-by-step process with detailed descriptions of each step, including screen shots. 
+
+==== Step 0: Gather IDS Account Info! ====
+For this step, you will need your IDS account. If you forgot your username and password, contact [[:contact|IDS Support]]. **Please allow at least 24 hours for your account to be reset.**
+
+==== Step 1: Obtain a Class Roster for Each IDS Period ====
+Before you can create classes and student accounts, you will need to obtain a class roster in CSV (comma-separated value) format for each of your IDS periods. Each CSV file **must** contain 4 columns with the following student information:
+  * First Name
+  * Last Name
+  * ID
+  * School Name
+If you need assistance obtaining the roster, please contact your school or district mathematics administrator or support person.
+
+**//__PLEASE NOTE__: If your students’ first and last names appear together in one column in the csv file, click below on "Roster Formatting" for further instruction on how to separate them.// 
+**
+
+[[namespace:page#here|Roster Formatting]]
+
+==== Step 2: Class Setup ====
+Sign on to the [[https://ids.mobilizingcs.org|IDS Home Page.]] Find and click the "Class Setup" tool.
+{{ :ids_class_set-up_0.png?direct&700 |}}
+ 
+==== Step 3: Create a New Class====
+Click on "Create New Class."
+{{ :ids_class_set-up_1.png?direct&700 |}}
+  * Select your class semester and period.
+  * Click "Create Class."
+{{ :ids_class_set-up_2.png?direct&500 |}}
+
+==== Step 4: Creating Student Accounts ====
+Once you create the class, click on "Import Users".
+{{ :ids_class_set-up_3.png?direct&700 |}}
+
+==== Step 5: Uploading Class Rosters ====
+  * Click the "Select CSV file" button and browse to find your class roster in CSV format (from step 1). **Caution**: Do not upload rosters in other formats, such as .xls. Only files in CSV format can be uploaded.
+{{ :ids_class_set-up_4.png?direct&700 |}}
+  * Once your roster is uploaded, click on the magnifying glass to see the contents in your file.
+{{ :ids_class_set-up_5.png?direct&700 |}}
+  * You will see the columns in your CSV file corresponding to your students' information.
+  * Notice and record on paper the contents of each column. The example below shows the following:
+     * Student ID = Column A
+     * First Name = Column B
+     * Last Name = Column C
+     * School Name = Column D
+{{ :ids_class_set-up_6.png?direct&700 |}}
+  * You will now assign the columns in the imported CSV file to their corresponding fields as shown below:
+{{ :ids_class_set-up_7.png?direct&700 |}}
+  * Find the "Prefix" field. Enter the prefix of the teacher's username. For example, if your username is busd-3215, you will enter busd- (please include the dash).
+  * Then click on "Import Users".
+{{ :ids_class_set-up_8.png?direct&700 |}}
+  * A green dialog box will appear after successfully creating student accounts.
+  * Scroll down to find all of your newly created users. You will see your students' usernames and activation passwords.
+{{ :ids_class_set-up_9.png?direct&700 |}}
+  * For a printer-friendly version of your student accounts list, find the "Print" button immediately under "Users".
+{{ :ids_class_set-up_10.png?direct&700 |}}
+  * Print the list and cut each strip showing each user's information horizontally. Distribute each strip to the corresponding account holder.
+{{ :ids_class_set-up_11.png?direct&500 |}}
+
+==== Step 6: Updating Rosters ====
+We understand that the first roster you upload may not be complete (or may contain students who have since dropped from your class).  Because of this, we've made it possible for you to very easily make changes to your roster:
+  * Repeat step 1 above to obtain the latest version of your IDS class roster in CSV format.
+  * Visit the [[https://ids.mobilizingcs.org/#classes|IDS Home Page]].
+  * Log in with your IDS account.
+  * Click "Manage" next to the class you'd like to update.
+  * Repeat step 5.
+  * After your roster uploads, there will be a descriptive status informing you of changes: 1- any new students who have been added (highlighted in green) and 2- any students who were not found in the roster, that you may choose to delete (highlighted in red).
+  * If you made a mistake and wish to delete a class, click on "Deleting a Class" below.
+
+[[app:web:deleting_a_class|Deleting a Class]]
+
+==== Step 7: Reset students' passwords ====
+When an account is first created, there is an initial password assigned to each account. Upon first login, each student is required to change his/her initial password to the password of his/her choice. Students can change their initial passwords by logging in to the [[https://ids.mobilizingcs.org/|IDS Home Page]], or via the IDS data collection tool on their phones. 
+
+On the rare occasion when students forget their passwords after their initial passwords have been changed, teachers can login to [[https://ids.mobilizingcs.org/#classes| the Class Setup tool]] to reset students' passwords.  
+
+==== FAQs ====
+  * Q. Can I change a student's password if they've forgotten it?
+  * A. Yes! Just find their name in your class list and click "Change Password".
+ 
+  * Q. Next to my student's account, it lists <changed> under password. What does this mean?
+  * A. This means the student's password has been changed from the initial password. You are still able to change it if necessary.
+
+  * Q. Something doesn't seem to be working on this page. Is my browser supported?
+  * A. Please refer to the "IDS Web Browser" section on our [[:requirements#mobilize_web_browser_requirements|minimum requirements]] page. 

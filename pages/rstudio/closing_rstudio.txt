@@ -1,0 +1,14 @@
+====== Closing RStudio ======
+
+To close RStudio, just click the “Sign Out” button at the very top right of the RStudio screen. This will sign you out of your account, and return you to the sign-on screen. When you log back in, everything will be just how you left it. Everything you had in your workspace will still be there, all the plots you created will still be accessible from the Plots tab, your code will still be in the Console. This is great if you want to jump back in right where you left off.
+
+But sometimes, you want a clean slate. Every now and then I feel like I’ve created too many variables, my old code starts to look messy to me, and I want to start again. To do this, go to the File menu at the top of the RStudio screen and choose “Quit RStudio.” 
+{{ :rstudio:quitrstudio.png?direct&700 |Quitting RStudio}}
+
+It will ask you if you want to save your workspace, 
+{{ :rstudio:saveworkspace.png?direct&700 |Saving workspace}}
+I recommend choosing “Don’t Save.” This is because saving the workspace means that every time you log in, you will log in to the same messy thing. If I want to start where I left off, I use the “Sign Out” button. But if I want a clean slate, I quit RStudio and click “Don’t Save.”
+After you quit, RStudio will prompt you to ask if you want to start a new session, and if you click the “Start New Session” button,
+{{ :rstudio:newrstudiosession.png?direct&700 | Relaunch}} 
+
+it will relaunch. As I mentioned before, this is a great way to start with a clean state. Obviously, it doesn’t delete your files, but it makes everything fresh again. And if you want to look at your code history, the History tab is always there to remind you what you did.

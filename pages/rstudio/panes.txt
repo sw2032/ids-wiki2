@@ -1,0 +1,77 @@
+====== Panes in RStudio ======
+
+There are generally four panes in RStudio, which are labeled 1 through 4 on this image:
+
+{{ :rstudio:rstudiopanes.png?direct&700 |RStudio Panes}}
+
+RStudio does allow you to move panes in the options menu, but this layout is the default when you first log in, so we’ll act as though it’s standard.
+
+==== Pane 1: View Files and Data ====
+
+This pane appears by default in the top left of the RStudio interface. When you click on a data file in the Workspace pane, or open a file from the Files pane, the results will appear in Pane 1. Each file opens in its own tab, and you can navigate between tabs by clicking on them (or using keyboard shortcuts).
+
+==== Pane 2: See Workspace and History ====
+This pane appears by default in the top right of the RStudio interface. The Workspace tab is generally the tab that is selected, and includes a list of all the objects you have loaded into your workspace. For example, all datasets you have loaded will appear here, along with any other objects you have created (special text formats, vectors, etc). If you click on the History tab, you will see the complete history of code you have typed, over all sessions, as in this image:  
+{{ :rstudio:rstudioviewhistory.png?direct&700 | The history tab}}
+The history is searchable, so you can use the search box at the upper right of the pane to search through your code history. If you find a line of code you want to re-run, just select it and click the “To Console” button:
+{{ :rstudio:rstudiosendtoconsole.png?direct&700 |Send to Console}}
+
+==== Pane 3: See Files, Plots, Packages, and Help ====
+This pane appears by default in the bottom right, and by default opens on the Files tab.
+
+=== Files ===
+This tab shows you all the files you have saved in your RStudio account. The buttons across the top of the tab allow you to upload additional files, delete files, rename files, and many more functions.
+
+=== Plots ===
+When you run code in the Console that creates a plot, the Plots tab will be automatically selected:
+{{ :rstudio:rstudioplotpane.png?direct&700 |The Plots Tab}}
+Any time you want to view plots, you can select this tab manually, but it will be selected when you run plot code. Notice the arrow buttons at the top left of the pane; these allow you to scroll through all the plots you have created in a session.
+
+
+=== Packages ===
+This tab allows you to see the list of all the packages (add-ons to the R code) you have access to, and which are loaded in already. We won’t be using this much, but here's what it looks like:
+
+{{ :rstudio:rstudiopackages.png?direct&700 |The Packages Tab}}
+
+=== Help ===
+This tab will be automatically selected whenever you run help code in the Console,
+<code r>
+help(plot)
+</code>
+
+but you can access it at any time by clicking on the tab.
+To see what the Help tab looks like, 
+
+{{ :rstudio:rstudiohelp.png?direct&700 |The Help Tab}}
+
+If you want to use Help without using the help command, you can also use the search bar at the upper right of the tab to search within the R documentation.
+
+==== Pane 4: Console  ====
+By default at the bottom left, this is the most important pane– the Console! This is where you enter your R code to do everything in the curriculum. The rest of the document will be largely concerned with working in the Console, with occasional references to other panes.
+
+===== Other Tips & Tricks =====
+
+==== Full-Screen/Presentation Mode ====
+
+* It's possible, in many browsers such as Google Chrome, to fit the RStudio Server window to the entire screen.
+  * These options are usually listed under the **View** options for the //Browser// (NOT the **View** options inside the RStudio Window).
+  * Look for options to make your screen //Full size// or an option to //Enter Presentation Mode//.
+  * Browsers are all different. Consult the documentation for the browser you're using for documentation of making the browser window full-screen.
+
+==== Pane Arrangement & Sizing ====
+
+You'll sometimes find it convenient to re-arrange the 4 window panes. To do so, move your mouse to the top of the screen and click on **Tools** and then **Global Options...**
+
+{{:rstudio:tools_build_options.png?direct&200|}}
+
+When the **Options** menu window opens, click on **Pane Layout**, on the left-hand side and then re-arrange the panes to your liking.
+
+{{:rstudio:panelayoutwindow.png?direct&400|}}
+
+==== Some possible configurations ====
+* For instructors, it's sometimes helpful to move the //Console// pane to the upper-left corner and the //plot window// to the upper-right.
+  * This configuration allows your students to watch you write your plot functions as well as clearly see the resulting plots.
+* For users with smaller screens, smartly arranging the panes can help you better use the screen real-estate that you do have.
+  * Place your console and script on the left-hand side of your screen and the help and plot windows on the right.
+  * You can write your code then on the left and analyze the plots on the right.
+  * If you're viewing the IDS lab slides on a small screen, you might find it helpful to place the //Viewer// in the lower-right hand corner, the //Console// in the upper-right hand corner and the //Script// you're writing on the left. Adjusting the size of the panes to make the slides larger will also help in reading them.

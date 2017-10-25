@@ -1,0 +1,10 @@
+===== Internal Video link list =====
+It's probably best that we don't link anyone here, this is just to keep track of the video links we can use for the 2013 deployment.
+
+[[http://www.youtube.com/watch?v=_j8DG7hKY8A|Do's and Do not's]]
+
+==== Tutorials ====
+  * [[http://www.youtube.com/watch?v=y5jIjbU85rs|Mobilize MWF (iOS) tutorial]]
+  * [[http://www.youtube.com/watch?v=BxKKB13TEqU|Mobilize android tutorial]]
+  * [[http://youtu.be/4O3JWfQlhq8|Campaign Authoring tool tutorial]]
+

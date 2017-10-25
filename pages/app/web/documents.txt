@@ -1,0 +1,48 @@
+===== Documents - Web Frontend =====
+
+The Documents tool allows users to
+  * Store documents (instead of using a flash drive or saving documents directly on a computer)
+  * Share documents
+
+When you click on the documents tool, it will look something like this
+
+{{ :undefined:documents01.png?direct&700 |}}
+
+
+
+====Create New Document====
+Clicking on the Create New Document button will take you to a screen like the one shown below.
+  * Clicking Choose File will produce a dialog box allowing you to navigate to and choose a particular document for upload. 
+  * The Document Name and Description fields are free text fields for describing the document.
+
+{{ :app:web:documents02.png?direct&700 |}}
+
+ 
+
+The Privacy State (either Private or Shared) can be chosen from the dropdown. 
+  * Note that if you mark the document shared and associate it with a class, it will be shared with the members of that class.
+  * If you mark a document private and associate it with a class, they will not be able to see it.
+{{ :app:web:documents03.png?direct&700 |}}
+
+Clicking on the Share to Class or Share to Campaign buttons will allow you to select the group this document is most associated with. You must choose at least one campaign or class with which to associate each document.
+{{ :app:web:documents04.png?direct&700 |}} 
+{{ :app:web:documents05.png?direct&700 |}}
+
+**NOTE: While you may see a file size limitation of 5.24MB, that is an incorrect display, the actual maximum file size is 25MB.**
+
+====View Document Details====
+Clicking on the name of the document allows you to view all the details about the document.
+
+{{ :undefined:documents06.png?direct&700 |}}
+
+It provides the description of the document, when it was created and the associated campaigns and classes. Note that this document has no associated campaigns, but is associated with one class. To hide the description details, simply click on the name of the document again.
+
+====Edit a Document====
+To make changes to a document, click edit. The edit screen looks like this:
+
+{{ :app:web:documents07.png?direct&700 |}}
+
+Much like the upload document page, this page allows you to edit the name, description, privacy setting and linked campaigns or classes. It is also possible to delete a document outright.
+
+====Download a Document====
+By clicking on Download, you will start the download process.

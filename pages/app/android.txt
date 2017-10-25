@@ -1,0 +1,16 @@
+===== UCLA MobilizingCS Android App =====
+
+The Android application is used during the project to gather data. The application can gather data via surveys, images and GPS tracking. Beyond just gathering data, mobile application users can view their data submissions and track the upload progress of their submissions via the Response History section.
+  * [[:app:android:login|Install/Login]]
+  * [[:app:android:campaigns|Campaigns]]
+  * [[:app:android:surveys|Surveys]]
+  * [[:app:android:responses|Response History]]
+  * [[:app:android:queue|Upload Queue]]
+  * [[:app:android:profile|Profile]]
+  * [[:app:android:reminders|Reminders]]
+  * [[:app:android:settings|Settings]]
+
+===== Video Tutorials =====
+If you'd prefer a video tutorial of many of these features, please visit these links:
+  * [[http://youtu.be/f4d7FNlZ2yk|Android Basics Tutorial]]
+  * [[http://www.youtube.com/watch?v=BxKKB13TEqU|Mobilize Android Application Tutorial]] [[http://www.teachertube.com/viewVideo.php?video_id=285078|teachertube link]]

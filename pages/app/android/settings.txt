@@ -1,0 +1,6 @@
+===== Android App - Settings =====
+The settings menu can be accessed by pressing your phone's button (while in the Mobilize app) and tapping "Settings."  The settings menu allows you to specify how and when Mobilize will upload data over your network connection.  By enabling the checkbox next to "Upload Responses via wifi" will tell the Mobilize app to ONLY upload your responses when on wifi.  The Mobilize app also uploads logging information to help diagnose issues. These are done via "probes" and by default are set to only upload via wifi.  You may want to take a look at ensuring content uploads only when on wifi if you have an extremely restrictive data plan with your carrier.
+
+Additionally, you can tap "Send a crash report" to do so, if you are experiencing app crash issues with the Mobilize app.
+
+{{ :app:android:settings1.png?direct&300 |}}

@@ -1,0 +1,22 @@
+====== Finding Help======
+
+==== R Documentation ====
+The first step in finding help is always to use the help command. So, if I’m trying to change the title of a plot and I don’t remember how, the first thing I would do is look at the documentation for the ''plot()'' command,
+<code r>
+help(plot)
+</code>
+and the help would appear in the Help pane
+{{ :rstudio:plothelp.png?direct&300 |plot documentation}}
+Then, I would start scanning through the arguments of the function to see if there was something that caught my eye as related to changing the title. This figure shows what you see what you scroll down a little further,
+{{ :rstudio:plothelp2.png?direct&300 |plot documentation part 2}}
+Notice that it says "''main'' an overall title for the plot: see ''title''” This would give me the hint that ''main'' is an argument for the ''plot'' function, so I could try adding ''main="Some title"'' to my plot arguments.
+
+==== Classmates ====
+If for some reason nothing caught my eye in the documentation, I would ask a classmate who was nearby. Oftentimes, other people remember what I do not!
+
+==== Google ====
+My third option would be to google for the issue, writing something like “R statistics add title to plot.” If you just google “R add title to plot” you will not get as good of results, because “R” is a hard thing to search for! The authors clearly named this language before the internet.
+{{ :rstudio:googlerhelp.png?direct&700 |Google help}}
+
+==== Professional help ====
+If you’ve exhausted your other options, Mobilize tech support is here to support you, so feel free to email us day or night with questions! We’ll probably only answer during the day, but we’re happy to guide you in the right direction for anything R or RStudio related.

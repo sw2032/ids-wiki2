@@ -1,0 +1,126 @@
+====== Text Analysis ======
+ 
+==== Initializing text ====
+
+To start doing any type of text analysis, you need to initialize the text so R knows how to interpret it. The way to do this is by using the ''InitializeText''() function,
+<code r>
+TwitterText = InitializeText(twitterwithdate$message)
+</code>
+
+As with everything else, you need to give your new data a name so it doesn’t just print out in the Console. After running this command, you should be able to see your new variable in the Workspace tab, 
+{{ :rstudio:textloaded.png?direct&700 |Text initialized}}
+However, if you click on it, you’ll likely get a warning like this: 
+{{ :rstudio:textpreviewwarning.png?direct&700 |Text preview warning}}
+I recommend saying “No”
+
+==== Looking at Text Data ====
+
+If you want to look at text data and not get a warning like the one above, use the command ''inspect()'' and the ''head()'' command,
+<code r>
+inspect(head(TwitterText))
+
+
+## A corpus with 6 text documents
+##
+## The metadata consists of 2 tag-value pairs and a data frame
+## Available tags are:
+##   create_date creator
+## Available variables in the data frame are:
+##   MetaID
+##
+## [[1]]
+## Fat Jack s Erratic Rants: WARM WEATHER AND GAS SAVINGS: BUY A MOTORCYCLE: Spring is here. or at least
+##
+## [[2]]
+## &quot;Spring is here. And I am a flower. with nothing interesting to say.&quot; Who said it? :-)
+##
+## [[3]]
+## Ants are starting to invade my bathroom. Guess that means spring is here. Grrrrr
+##
+## [[4]]
+## Im so bored spring is here.and so far it s going bad! :/
+##
+## [[5]]
+## Guess Spring is here and must figure out what type of veg. to plant and more flowers.
+##
+## [[6]]
+## @Royboi pretty good. finally feeling like spring is here. feeling all randy and ready for patio drink
+</code>
+
+==== Processing Text====
+After you’ve initialized the text, you probably want to process it to convert all the words to lowercase or remove numbers or stem words. To do that, use the function ''ProcessText()'',
+
+<code r>
+GoodText = ProcessText(TwitterText)
+</code>
+
+By default, this function converts all the text to lowercase, removes punctuation, and removes numbers. It does not automatically remove whitespace, remove stopwords (e.g. words like 'the', 'and', 'there'), or “stem” words (e.g. convert both “walked” and “walking” to “walk”). If you want to do any of those things (or if you don’t want to use the defaults), you can change the options,
+
+<code r>
+GoodText = ProcessText(TwitterText, stopwords.list = stopwords("SMART"), removestopwords = TRUE, removenumbers = FALSE)
+</code>
+
+Something to note is that there are standard sets of stopword lists. The ProcessText() function uses the "EN" list by default. The "SMART" stopword is a more extensive alternative. To choose one or the other set the stopwords.list argument to be stopwords("SMART") or stopwords("EN").
+
+==== Bar Plot of Words ====
+
+Much like the normal barplot, the command ''MakeWordBar'' creates a bar plot of frequently occurring words in the dataset.
+<code r>
+MakeWordBar(GoodText)
+</code>
+{{ :rstudio:wordbarchart.jpeg?direct&300 |}}
+
+
+By default, it only shows words that appeared at least 2 times, but you can change that, too.
+
+<code r>
+MakeWordBar(GoodText, min.freq = 25)
+</code>
+{{ :rstudio:wordbarchart25.jpeg?direct&300 |}}
+
+Finally, if you want to look at the top 5 words (by total counts) you can use
+<code r>
+MakeWordBar(GoodText, top=5, format='count')
+</code>
+{{ :rstudio:wordbarchart5c.jpeg?direct&300 |}}
+
+or you can look at the top 5% of words by using
+<code r>
+MakeWordBar(GoodText, top=5, format='count')
+</code>
+{{ :rstudio:wordbarchart5p.jpeg?direct&300 |}}
+
+==== Word Cloud ====
+
+To make a word cloud, use the function ''MakeWordCloud''. 
+<code r>
+MakeWordCloud(GoodText)
+</code>
+{{ :rstudio:wordcloud.jpeg?direct&300 |}}
+
+
+This function has a few parameters you can modify. The first is color, which should be a specification for a color range. Unlike most plots, we want to have a range of colors instead of just one, so we need to specify the colors different. The default value is "BuGn", but you can see the list by using ''display.brewer.all()'',
+<code r>
+display.brewer.all(type = "seq")
+</code>
+
+{{ :rstudio:displaycolors.jpg?direct&300 |Display Colors}}
+
+Another parameter is the same as for the ''MakeWordBar()'', ''min.freq'', which again defaults to only showing words that occurred two or more times.
+<code r>
+MakeWordCloud(GoodText, color = "OrRd", min.freq = 10)
+</code>
+
+{{ :rstudio:wordcloudorrd.jpeg?direct&300 |}}
+
+And just like the MakeWordBar() function, we can specify to display the top 5 (by count) words
+<r code>
+MakeWordCloud(GoodText, top = 5, format = "count")
+</code>
+{{ :rstudio:wordcloud5c.jpeg?direct&300 |}}
+
+or you can display the top 5% of words
+<r code>
+MakeWordCloud(GoodText, top = 5, format = "count")
+</code>
+{{ :rstudio:wordcloud5p.jpeg?direct&300 |}}

@@ -1,0 +1,37 @@
+===== Campaigns - Web Frontend =====
+
+The Campaigns tab allows you to:
+  * View the campaigns you are participating in
+  * Learn more about your campaigns
+  * Edit campaigns that you have privilege over (either because you created the campaign or because you're a [[:app:web:usertypes|supervisor]])
+
+When you click onto the Campaigns tab, it will look something like this:
+
+{{ :app:web:campaigns1.png?direct&700 |}}
+
+The user, mobilize.teacher, is a member of two campaigns, called Media and Snack. The "Created on" field shows that both campaigns were created on August 30, 2011. Both campaigns are [[:app:web:campaignstatus|running, as well as shared]].
+The user can [[:app:web:campaigns#view_campaign_details|view details]] about a particular campaign by clicking on the view link, [[:app:web:campaigns#edit_campaign|edit]] a campaign by clicking on the edit link ([[:app:web:faq|why don't I see an edit link?]]), or [[:app:web:campaigns#Export Campaign Data|export]] the shared data associated with the campaign by clicking on the export link.
+
+====Export Campaign Data====
+By clicking on the export link next to a campaign, all the shared data associated with that campaign is downloaded to the computer. It will be saved with other downloads on the computer (often in a folder named "Downloads" or sometimes directly onto the "Desktop").
+
+====View Campaign Details====
+By clicking on the view button on the campaigns page, you will be brought to a screen like this one:
+
+{{ :app:web:campaigns2.png?direct&700 |}}
+
+This page lists the name of the campaign, the URN of the campaign (a URN is a uniquely identifiable string to identify campaigns, kind of like a URL is a unique identifier for a web page), the creation time, a short description of the campaign, the classes it is associated with, and the author(s) of the campaign. Then, it gives links to view or download the xml configuration. At the bottom, it shows the [[:app:web:campaignstates|running state and privacy setting]] for the campaign.
+
+====View XML====
+If you click view, you will be presented with a page of [[wp>xml]]XML, much like this:
+
+{{ :app:web:campaigns3.png?direct&700 |}}
+
+
+====Edit Campaign====
+If you click on the edit link, you will be brought to a page much like the [[:app:web:campaigns#view_campaign_details|view campaign]] page, but with the ability to make modifications to the campaign.
+
+{{ :app:web:campaigns4.png?direct&700 |}}
+
+Again, it shows the name and URN of the campaign, but these fields are not editable (unless you want to completely delete the campaign). You can edit the description of the campaign at any time, by changing the text in the text box. It is possible to upload a new xml file to replace the current xml configuration, but can be repercussions to how the campaign works if it is edited midstream, so it is safest to leave this alone unless you really know what you're doing. Clicking the "Add Classes" button will allow you to add or remove [[:app:web:classes|classes]]. The "Add Authors" button adds additional authors. This is also where you can change the [[:app:web:campaignstates|running state or the privacy setting]] of the campaign. To keep your changes, click save. Otherwise, click cancel. Finally, at the very bottom of the page is the option to delete a campaign altogether ([[:app:web:faq|Why would I want to delete a campaign?]]).
+<<<add some information re: when you can and cannot edit/delete a campaign>>>

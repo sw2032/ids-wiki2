@@ -1,0 +1,15 @@
+===== Android App - Install/Login =====
+To install the Mobilize android application, you can either [[https://play.google.com/store/apps/details?id=org.ohmage.mobilizingcs|click this link]] directly, or search for "UCLA MobilizingCS" directly from the play store (make sure the logo looks like the logo on the upper left of this web page!).
+Once installed, follow the instructions below to get started!
+
+The Mobilize application can be accessed from the home screen or application menu on your Android device. Look for an icon with this logo:
+
+{{ :app:android:login1.png?direct |}}
+
+When the application loads you will be taken to a screen that looks like the one below. Please log in using the username and password provided to you.
+
+{{ :app:android:login2.png?direct&300 |}}
+
+After logging in you will see a number of menu options on the main screen. You can select the [[:app:android:campaigns|Campaigns]] area, the [[:app:android:surveys|Surveys]] area, the [[:app:android:responses|Response History]] area, the [[:app:android:queue|Upload Queue]] area, the [[:app:android:profile|Profile]] area.
+
+{{ :app:android:login3.png?direct&300 |}}

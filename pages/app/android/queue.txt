@@ -1,0 +1,5 @@
+===== Android App - Upload Queue =====
+
+By selecting the Upload Queue from the mobile application main menu, you can track any surveys you have taken which have not yet been uploaded to the Mobilize web server. You can force a survey to upload by tapping the "upload" icon next to the survey.  There is also an "upload all" button at the bottom of the screen.
+
+{{ :app:android:queue1.png?direct&300 |}}

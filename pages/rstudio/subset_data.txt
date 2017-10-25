@@ -1,0 +1,47 @@
+====== Subsetting ======
+
+==== subset() command ====
+
+To subset data, we use the ''subset()'' command. The syntax of this function is that you tell it the name of the dataset you want to subset, then you tell it the rule for subsetting. So if we want to see the part of the ''labike'' dataset that has bike counts of more than 300, we do this:
+<code r>
+subset(labike, bike_count_pm > 300)
+</code>
+{{:rstudio:subset_labike_bike_count_pm.png?direct|}}
+
+As always, this is just printing into the Console, so if we want to save the subset for later use we need to name it something 
+<code r>
+LotsOfBikes = subset(labike, bike_count_pm > 300)
+</code>
+Now it will appear in your Workspace tab, and if you want to see it you can click on  ''LotsOfBikes''  to see it.
+
+
+==== Subsetting with text ====
+If you want to subset using a word in a text variable, you have to use the ''grep1()'' command along with the ''subset()'' command. ''grepl()'' is part of a family of commands that do similar things, so check out the documentation for the function if you want to learn more.
+<code r>
+grepl("bike", labike$type)
+</code>
+''##  [1] FALSE  TRUE FALSE FALSE FALSE FALSE FALSE  TRUE  TRUE FALSE FALSE \\
+￼## [12] FALSE FALSE  TRUE FALSE  TRUE FALSE  TRUE  TRUE FALSE  TRUE FALSE \\
+## [23]  TRUE  TRUE FALSE FALSE  TRUE  TRUE  TRUE FALSE  TRUE FALSE  TRUE \\
+## [34]  TRUE  TRUE FALSE  TRUE FALSE''\\
+
+This is telling us whether or not a particular row in the type column had the word “bike” in it. But, it’s just a logical vector with ''TRUE/FALSE'' values. To actually pull out the data, we need to use it with the ''subset()'' command.
+
+<code r>
+subset(labike, grepl("bike", labike$type))
+</code>
+
+{{ :rstudio:grepl.png?direct&300 |grepl}}
+
+Notice that this is pulling out rows that have bike route, bike path, and bike lane, because we were greping on the word “bike.” This is a slightly stupid example, because we could have done this just using ''subset'',
+<code r>
+subset(labike, type != "none")
+</code>
+
+{{ :rstudio:subsetvgrepl.png?direct&300 |subset versus grepl}}
+
+The difference here is that with the first example, I was searching for all the responses that had the word "bike" in them, and with ''subset()'' I'm picking the responses that are //not// equal to ''none'' because I know all the others have the word "bike" in them. ''grepl()'' could be used for much more complex subsetting based on text, for example pulling out the word "finally!" from thousands of tweets that contain tons of other text. In that case, there would not be an equivalent way to do the same thing using ''subset()''. 
+
+==== Spatial Subsetting ====
+
+To do spatial subsetting (i.e. choose points for a subset by selecting them on a map), see [[rstudio:Make_maps#spatial_subsetting|spatial subsetting]].

@@ -1,0 +1,24 @@
+===== IDS Home Page =====
+The IDS Home Page (powered by the [[http://www.ohmage.org|ohmage]] project) is used to provide students secure access to their data. It supports secure login, campaign management, data management and basic campaign monitoring and visualization. The students can review and share their data to the growing data set collected by their class. The Home Page can also be used to discover the answers to basic statistical inferences in real-time as data is being collected. When data collection is complete, the Home Page allows for easy exporting of the data to a more thorough [[:rstudio|statistical analysis]] tool.
+
+{{ :app:homepage.png?direct&700 |}}
+==== Detailed Walkthrough ====
+
+
+  * [[:app/:web/:home|Monitor]]
+  * [[:app/:web/:campaigns|Campaigns]]
+  * [[:app:web:responses|Dashboard]]
+  * [[:app/:web/:exploredata|Plot App]]
+  * [[app:web:teacher|Class Setup]]
+  * [[:app/:web/:documents|Documents]]
+  * [[:rstudio|RStudio]]
+  * [[:app:web:surveys|Survey Taking]]
+
+==== Other Help ====
+  * [[:app/:web/:usertypes|Types of users]]
+  * [[:app/:web/:campaignstates|Campaign States]]
+  * [[:app/:web/:faq|FAQ]]
+
+==== Video Tutorials ====
+If you'd prefer a video tutorial of many of these features, please visit this link: 
+  * [[http://youtu.be/ZlH-32fQ0ns|IDS Home Page]] [[http://www.teachertube.com/viewVideo.php?video_id=285082|teachertube link]]

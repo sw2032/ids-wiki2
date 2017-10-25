@@ -1,0 +1,16 @@
+  * [[:home|Home]]
+  * [[:ids|Curriculum]]
+  * Technology
+    * [[:requirements|Minimum Software Requirements]]
+    * [[:app/web/teacher|Class Setup]] 
+    * Data collection tools
+      * [[:app/android|Android App]]   
+      * [[:app/iphone|iPhone App]]
+      * [[:app:web:surveys|Web App]]
+    * [[:app/web|IDS Home Page]]
+    * [[:home#3._Customized_snack_and_advertisement_visualization|Interactive Dashboards]]
+    * [[:rstudio/main|RStudio®]] 
+    * [[:xml|Campaign Creation]]
+  * [[:faq|FAQ]]
+  * [[:pd|PD Materials]]
+  * [[:contact|Contact Info]]

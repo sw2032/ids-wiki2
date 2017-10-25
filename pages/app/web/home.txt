@@ -1,0 +1,14 @@
+===== Home - Web Frontend =====
+The Mobilize Web Frontend (powered by [[http://ohmage.org|ohmage]] is compatible with all modern browsers, but works best with Chrome, Firefox and Safari. Internet Explorer, if used, should certainly be updated to it's latest incarnation.
+
+The home page will first request for your username and password:
+{{ :app:web:home1.png?direct&700 |}}
+
+After you enter your username and password and click login, you will be taken to the dashboard.
+{{ :app:web:home2.png?direct&700 |}}
+
+The dashboard provides you with quick links, listed on the left side. You can [[app/web/campaigns|browse campaigns]], [[app/web/responses|share or delete survey responses]], or [[app/web/documents|upload documents]] from these links.
+
+The dashboard also summarizes your activity in the three boxes located in the center of the page. The orange box tells you how many private responses you have waiting on the server, and allows you to [[app/web/responses|edit private responses]]. The green box has a count of how many surveys you are participating in, and allows you to [[app/web/campaigns|view active campaigns]]. Also, the blue box has a count of how many campaigns you are personally running, and allows you to see your [[app/web/campaigns|running campaigns]]. On the top right (not shown in this screenshot) there is a "Take Survey" link, which will take you to the [[:app:web:surveys|browsed-based survey collection] page.
+
+Finally, the dashboard gives you access to all the tabs, which are [[app/web/campaigns|campaigns]], [[app/web/responses|responses]], [[app/web/exploredata|explore data]], [[app/web/documents|documents]] and [[app/web/classes|classes]]. More information about each of these tabs is available on their pages.

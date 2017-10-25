@@ -1,0 +1,122 @@
+=====Examining Data=====
+====The Dollar Sign====
+One of the most useful things to know in R is that the dollar sign, ''$'', lets you access variables within a data set. For example, if you’re looking at the dataset called ''labike'', you might want to access the variable ''bike_count_pm'' to make a plot, to calculate the average, etc. To tell R you want that variable, use this syntax:\\ 
+<code r>
+labike$bike_count_pm
+</code>
+
+''## [1] 62  48 216 72 58 150 63 353  53 121  93 119 110  65 93 977 105\\  
+##[18] 56 164  97 35 39  97 73  42 103 153 138 145  35 118 90 391  52\\  
+##[35]220 155  49 40''
+
+What are these numbers? Well, R is printing out every value in that column of the dataset.
+Looking at Figure 18, you can see that the first value in that column is 62, and that is the first number listed by R, above. R prints values from left to right, and when it runs out of room on a line it starts over on the next line.
+{{ :rstudio:labikehead.png?direct&700 |La Bike Data}}
+
+The numbers along the side tell you the index of that data point. So, 62 is the first data point, because it
+appears next to the [1], and 56 is the 18th data point, because it appears next to the [18].
+<code r>
+mean(labike$bike_count_pm)
+## [1] 132.9
+</code> 
+In this example, we are taking the mean of the variable ''bike_count_pm'', and it is 132.9. Because this is only one number, the index [1] appears next to it.
+
+==== Square brackets ====
+Another useful thing to know about are square brackets, ''[]''. These brackets let you access values in a dataset by their index (described on the [[rstudio:Useful_Terms|useful terms]] page). A data frame has two dimensions, so you need to either specify two numbers, or leave a blank space if you want all of a certain dimension.
+
+<code r>
+labike[10, 2]
+## [1] -118.3
+</code>
+<code r>
+labike[10, ]
+</code>
+''##   name longitude latitude type bike_count_pm ped_count_pm \\
+## 10 Echo Park & Sunset    -118.3    34.08 none           121         1369''\\
+
+The first example here is showing us the 10th row of the ''labike'' dataset, and the second column (which is the longitude). The second example is not specifying a column, so it shows us the entire 10th row of the dataset.
+
+==== Summaries of data (“Frequency tables”) ====
+If you want to know some basic frequencies or statistics about a particular variable, ''summary()'' is a very useful command. 
+<code r>
+summary(labike$type)
+</code>
+{{:rstudio:summary_labike_type_.png?direct|}}
+
+So, for the variable type, the ''summary()'' command tells us how many responses there were in each of those categories. 
+<code r>
+summary(labike$bike_count_pm)
+</code>
+{{:rstudio:summary_labike_bike_count_pm_.png?direct|}}
+
+If you use ''summary()'' on a variable that is numeric, like ''bike_count_pm'', it gives us some basic statistics, like the minimum and maximum values, the median and mean, and the 1st and 3rd quartiles.
+
+====Length and dimension ====
+Sometimes you want to know how many values are contained within a dataset or a variable. ''length()'' and ''dim()'' allow you to find that out.
+
+<code r>
+dim(labike)
+</code>
+''## [1] 38  6''\\
+
+<code r>
+length(labike$latitude)
+## [1] 38
+</code>
+This is what we expected, because the variable is just as long as the dataset has rows.
+
+==== Tables (contingency tables)====
+To get summaries of the number of variables in a given category (or set of categories), ''table()'' is a great command. If you run, you get a table of values (sometimes called a contingency table)\\ 
+<code r>
+table(cdc$gender)
+
+## 
+##    Female	Male 
+##	7036	6992
+
+table(cdc$gender, cdc$general_health)
+
+## 
+##        Excellent Very good Good Fair Poor 
+## Female      615      1597  2661 1106  183
+## Male       1294      1982  2053  578  118
+</code>
+
+Notice that providing two variables as arguments resulted in a two-way contingency table.\\ 
+
+==== Determining data types====
+
+R has a few useful functions for learning about variables. One is ''class()'',
+<code r>
+class(labike) 
+
+## [1] "data.frame"
+
+class(labike$type) 
+
+## [1] "factor"
+
+class(labike$latitude) 
+
+## [1] "numeric" 
+</code>
+
+A similar function that provides a little more information is ''attributes()'',
+
+<code r>
+attributes(labike)
+</code>
+{{:rstudio:attributes_labike_.png?direct|}}
+<code r>
+attributes(labike$type)
+</code>
+{{:rstudio:attributes_labike_type_.png?direct|}}
+<code r>
+attributes(labike$latitude)
+</code>
+''## NULL''\\ 
+
+Notice that ''class(labike$latitude)'' told us something about the latitude variable, but that ''attributes(labike$latitude)'' returned a ''NULL'' response. So, ''attributes()'' isn’t always the better choice.\\
+
+For the dataset ''labike'', the ''attributes()'' function told us the names of every column in the dataset (the variables) as well as the row names. In this case, the row names are just numbers, but you could imagine cases when the rows would have names, maybe students in a class. Then, it tells us the class, which is the same thing the ''class()'' function told us– data.frame.
+For the ''type'' variable, we got a little more information. Not only do we learn that the ''class'' is ''factor'', we also see all the ''levels''. Levels are possible values for a factor variable. If you had a multiple-choice question, maybe the levels would be A, B, C, D. In this case, they’re things like "bike route".

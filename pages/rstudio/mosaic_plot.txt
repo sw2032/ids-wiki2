@@ -1,0 +1,11 @@
+====== Mosaic Plot ======
+
+A mosaic plot lets you compare two categorical variables, much like a [[rstudio:scatter_plot|scatter plot]] does for quantitative variables. Lets look at an example: 
+
+<code r>
+mosaicplot(table(cdc$gender, cdc$eat_fruit), las = 2)
+</code>
+
+{{ :rstudio:rotatelables.jpg?direct&500 |Rotate Labels}}
+
+This plot lets us compare how often males and females report eating fruit. The sizes of the boxes are scaled by the number of responses that fall into that combination of categories. So, the width of the female and male columns are scaled by the number of males and females. In this case, there were about the same number of men and women who responded, so those two columns have about the same width. Then, we can see that the boxes labeled "Did not eat fruit" are slightly different sizes-- the box in the Male column is a little larger, which means that slightly more men than women said they do not eat fruit. The next box is labeled "1 to 3 times", and the Female box is a little larger, so females in this survey reported eating fruit "1 to 3 times" per day more often than men did. All the subsequent boxes are scaled the same way. 

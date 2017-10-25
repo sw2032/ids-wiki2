@@ -1,0 +1,71 @@
+
+====== Useful Terms ======
+**Argument**: an argument is a specific value that is passed as part of a function call. Often, it is associated with a parameter. For example, "blue" is an argument that can be passed with the parameter ''col'' to the ''plot'' function. People often use parameter and argument interchangeably.
+
+**Bar Plot**: a bar plot creates a bar for each level of a factor variable. An easy way to think about this is if you had a question with four possible answers, A, B, C, and D. A bar plot of the data would have a bar labeled A, and the height of the bar would be the number of times someone had answered A. Then there would be a bar labeled B, whose height was the number of times people had answered B.
+
+**Big Data**: the term "Big Data" is often used to refer to the notion of very large data sets, and dealing with Big Data is something that many computer scientists concern themselves with.
+
+**Box Plot** : a boxplot shows you a summary of data by displaying the median, 25th and 75th percentiles, the minimum and maximum, and the outliers. 
+
+**Brackets, [] in R** : these brackets let you access values in a dataset by their index.
+
+**Data Frames**: a data frame is more general than a matrix, in that different columns can have different modes (numeric, character, factor, etc.)
+
+**Data set**: a collection of data or observations. Usually, this is a file that contains many rows and columns. The rows are individual observations and the columns are variables. An example of a dataset is the ''labike.csv'' file.
+
+**Data Types** : R has a wide variety of data types including scalars, vectors (numerical, character, logical), matrices, data frames, and lists.
+
+**Default**: the default is what a function does if not otherwise instructed. For example, the ''plot'' function will assume that the parameter ''col'' has a default value of "black", and therefore will plot a graph in black if no color is passed as an argument.
+
+**First Quartile** : the third quartile, denoted by Q3 , is the median of the upper half of the data set. This means that about 75% of the numbers in the data set lie below Q3 and about 25% lie above Q3 .
+
+**Function**: a function is a small program with a specific job that takes parameters as inputs and returns a result as an output. An easy function to think about is ''mean()'', which takes numbers as its input, adds them all up and divides by the number of cases, and returns that value.
+
+**Histogram**: a histogram lets you see a distribution for a quantitive variable, like a bar plot lets you see for a categorical variable. Unlike categorical variables, quantitive variables don't have inherent bins, so that's something we can choose (or R will choose it for us).
+
+**Index**: an index is a numerical reference to the position of something inside a dataset. It can be used to pull things out of datasets. For example, ''labike[2,]'' gives you the second row of the labike dataset.
+
+**Legend**:  a legend is a concise explanation of the symbols used in a chart, diagram, drawing, map, table, etc. A legend is usually conspicuously displayed in a tabular form.
+
+**Levels**: levels are possible values for a factor variable. For example, in labile dataset, the variable **type** has 4 levels- "bike lane", "bike path", "bike route", and "none."
+
+**Matrices** : all columns in a matrix must have the same mode(numeric, character, etc.) and the same length. The general format is:
+<code r>
+mymatrix <- matrix(vector, nrow=r, ncol=c, byrow=FALSE, dimnames=list(char_vector_rownames, char_vector_colnames))
+</code>
+byrow=TRUE indicates that the matrix should be filled by rows. byrow=FALSE indicates that the matrix should be filled by columns (the default). dimnames provides optional labels for the columns and rows.
+
+**Mean** : The mean is the average of the numbers: a calculated "central" value of a set of numbers. To calculate: Just add up all the numbers, then divide by how many numbers there are.
+
+**Median** : the median of a data set is the number that, when the set is put into increasing order, divides the data into two equal parts. 
+
+**Numeric variable**: A numerical or continuous variable (attribute) is one that may take on any value within a finite or infinite interval (e.g., height, weight, temperature, blood glucose, ...). There are two types of numerical variables, interval and ratio. An interval variable has values whose differences are interpretable, but it does not have a true zero. A good example is temperature in Centigrade degrees. Data on an interval scale can be added and subtracted but cannot be meaningfully multiplied or divided. For example, we cannot say that one day is twice as hot as another day. In contrast, a ratio variable has values with a true zero and can be added, subtracted, multiplied or divided (e.g., weight).
+
+**Observation**: an observation is typically a row in a dataset. It is a collection of information about one thing. In the LA Bike data, each observation is an intersection in LA.
+
+**Parameter**: a parameter is a variable associated with a function input. It allows us to pass a specific value as an argument to the function. For example, a parameter of the ''plot()'' function is ''col'', which lets you specify the color. People often use parameter and argument interchangeably.
+
+**Pass**: to pass values as input arguments to a function, you have to put them inside the function call. In other words, they need to be in the parentheses.
+
+**Return**: the return is what a function gives back to you. The ''mean()'' function returns the value of the mean. The ''plot()'' function returns a plot.
+
+**Scatter Plot** : a scatter plot generally displays the values of two different numeric variables. It can be used to spot relationships between  numerical variables.
+
+**Spatial Data**:  spatial data is also known as geospatial data or geographic information; it is the data or information that identifies the geographic location of features and boundaries on Earth, such as natural or constructed features, oceans, and more. Spatial data is usually stored as coordinates (latitude and longitude), and it's a type of data that can be mapped. Spatial data is often accessed, manipulated or analyzed through Geographic Information Systems (GIS).
+
+**Survey** : To gather information by individual samples so as to learn about the whole thing. For example: you could survey a river's water quality by taking a cupful of water from different locations at different times. Another example: you can do a survey on people's opinions, by asking randomly chosen people the same questions.
+
+**Third Quartile** : the first quartile, denoted by Q1 , is the median of the lower half of the data set. This means that about 25% of the numbers in the data set lie below Q1 and about 75% lie above Q1 .
+
+**Contingency Table**: A two-way table, or contingency table, for categorical data is simply a rectangular array of cells. Each cell contains the frequencies for the joint values of the row and column variables. If the row variable has r values, then there will be r rows of data in the table. If the column variable has c values, then there will be c columns of data in the table. Thus, there are r × c cells in the table. (The dimension of the table is r × c). The marginal totals are the sums of the observations for each row and each column.
+
+**Variable**: a variable is typically a column in a dataset. It is a collection of information about one aspect of something, over a bunch of observations. In the LA Bike data, the columns are things like the latitude and longitude values for the intersection, the number of bikes, etc.
+
+
+
+
+
+
+
+

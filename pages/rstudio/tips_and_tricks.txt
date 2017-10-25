@@ -1,0 +1,12 @@
+====== Tips and Tricks ======
+
+RStudio offers a lot of handy tricks to help you as you work.
+
+==== Code completion ====
+If you’ve typed a little bit of a function name, you can hit the “Tab” key, and RStudio will show you options for code completion. For example, if you don’t want to type out long variable names, just type the name of the dataset and the dollar sign, then hit tab. A list of variables will appear
+
+{{ :rstudio:codecompletion.png?direct&700 | Code completion}}
+and you can scroll through with your arrow keys or using the mouse.
+
+==== Code history ====
+While the History tab is very useful, there’s an even simpler way to access your code history– hitting the up arrow in the console. This lets you scroll through your last few commands and re-run them. I often use this if I’m changing just one little thing about a line of code. Just the color of points in a plot, for example.

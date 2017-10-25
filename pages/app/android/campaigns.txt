@@ -1,0 +1,12 @@
+===== Android App - Campaigns =====
+In order to respond to surveys, you will need to participate and download at least one campaign to your device. You can do this by selecting the campaign button from the main menu of the mobile application and tapping the add button. 
+
+{{ :app:android:campaign1.png?direct&300 |}}
+
+Next, you'll need to download a campaign from the list of campaigns that are available to you. Please note that the campaign names listed in the image below are samples, those campaigns available to you are likely to be quite different. 
+
+{{ :app:android:campaign2.png?direct&300 |}}
+
+You can add a campaign by either pressing the download button next to a campaign, or by viewing the campaign detail page (screenshot below), and tapping the "participate" button on that page.
+
+{{ :app:android:campaign3.png?direct&300 |}}

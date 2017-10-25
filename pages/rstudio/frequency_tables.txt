@@ -1,0 +1,3 @@
+If you want to know some basic frequencies or statistics about a particular variable, summary() is a very useful command.
+So, for the variable type, the summary() command tells us how many responses there were in each of those categories.
+If you use summary() on a variable that is numeric, like bike_count_pm, it gives us some basic statistics, like the minimum and maximum values, the median and mean, and the 1st and 3rd quartiles.

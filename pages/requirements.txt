@@ -1,0 +1,35 @@
+===== Requirements =====
+Below are the minimum and necessary requirements for the applications and tools to be used to support implementation of the IDS curriculum.  Please refer to these to ensure that your lab and/or devices are able to run the necessary tools.  If you have questions but they don't seem to be covered here, please [[:contact|contact us]].
+
+There are two main software tools used in IDS:
+  - IDS software suite for data collection and visualization.
+  - RStudio for hands-on data analysis. 
+
+==== 1 IDS software suite ====
+=== 1.1 IDS Web Browser Requirements ===
+The IDS Web Browser and its tools is a customization of the ohmage web frontend. It supports the following common browsers.
+  * Chrome
+  * Firefox (latest 3 versions only).
+  * Safari (versions 5+) *when using the data collection tool, only Safari 6+ is supported.*
+  * Internet Explorer, **only** when using the [[http://www.google.com/chromeframe|Chrome Frame plugin]]
+
+=== 1.2 UCLA MobilizingCS Mobile App Requirements ===
+The UCLA MobilizingCS mobile apps are mainly used for data collection. The apps are available on the Android and IOS smartphones:
+== Android App ==
+The UCLA MobilizingCS Android phone app supports many Android devices with the Android 2.2+ operating system. 
+  * To ensure compatibility, visit the [[https://play.google.com/store/apps/details?id=org.ohmage.mobilizingcs|Google Play Store]] page for the UCLA MobilizingCS app and try to install (you'll be notified if your device isn't supported)!
+
+== Apple iOS App ==
+The UCLA MobilizingCS IOS app supports the following Apple iOS devices and models:
+  * iPhone (3gs, 4, 4s, 5 and newer are supported)
+  * iPod touch (3rd, 4th, 5th genrations and newer)
+  * iPad (iPad 2, 3rd generation, 4th generation and newer)
+  * iPad mini
+  * To ensure compatibility, visit the [[https://itunes.apple.com/us/app/mobilize-mwf/id601202066?mt=8|Apple App Store]] page for the UCLA MobilizingCS app and try to install (you'll be notified if your device isn't supported)!
+
+==== 2 RStudio Web Browser Requirements ====
+RStudio is an external, open-source project.  While they have very liberal browser requirements, below is a list of those they recommend on [[http://support.rstudio.org/help/kb/advanced/optimizing-your-browser-for-rstudio|this page]]
+  * Firefox 3.5
+  * Safari 4.0
+  * Google Chrome 5.0
+  * Internet Explorer (when using the [[http://www.google.com/chromeframe|Chrome Frame plugin]])

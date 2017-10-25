@@ -1,0 +1,46 @@
+===== Download the Curriculum =====
+
+Curriculum materials for Mobilize Mathematics, Science, IDS, and Mobilize Prime are listed below: 
+
+==== Mobilize IDS Units & Supplemental Materials ====
+ * [[https://ucla.box.com/v/mobilize|Mobilize Curriculum Directory]] The link will take you to the general directory for all https://wiki.mobilizingcs.org/ curricula. Just click on the folder marked "MZ Curriculum_IDS" to find current versions of the IDS curriculum.
+--------------
+
+==== Mobilize Science Unit & Supplemental Materials ====
+
+  * [[https://ucla.box.com/v/mobilize|Mobilize Curriculum Directory]] All materials you'll need to implement the Mobilize Science curriculum can be found here. The link will take you to the general directory for all https://wiki.mobilizingcs.org/ curricula. Just click on the folder marked "MZ Curriculum_Science" to find current versions of the Mobilize Science Unit, PowerPoints, Student Handouts, PSA Exemplars (also below), and Additional Teacher Resources. 
+
+  * PSA Exemplars
+    * <html><a href="https://goanimate.com/videos/0WnnIwceZunI?utm_source=embed" target="_blank">Mobilize Trash Exemplars</a> by <a href="https://goanimate.com/user/06Z8UoDwMioQ" target="_blank">joyrperez</a> on <a href='https://goanimate.com?utm_source=embed' target="_blank">GoAnimate</a><br/><iframe scrolling="no" allowTransparency="true" frameborder="0" width="400" height="258" src="https://goanimate.com/player/embed/0WnnIwceZunI"></iframe></html>
+    * {{https://drive.google.com/file/d/0B61CN5_CIXNJNjRsYWVrRmhuNUE/edit?usp=sharing|Video 2}}
+    * {{https://drive.google.com/file/d/0B61CN5_CIXNJM1FxaTZsSkRackE/edit?usp=sharing|Video 3}}
+
+---------------
+
+==== Mobilize Math Unit & Supplemental Materials ====  
+
+  * [[https://ucla.box.com/v/mobilize|Mobilize Curriculum Directory]] The updated 2015-16 version of Unit 1 of the Mobilize Mathematics curriculum is now available! The link will take you to the general directory for all Mobilize curricula.  Just click on the folder marked "MZ Curriculum_Math" to find current Curriculum, Lesson PowerPoints, Student Handouts, and Teacher Resources for Mobilize Unit 1. The 2015-16 version of Unit 2 will be available in late August 2015.
+     
+  //External References//
+  * Guidelines for Assessment and Instruction in Statistics Education (GAISE) Report : [[http://www.amstat.org/education/gaise/GAISEPreK12_Intro.pdf]]. This document illustrates key concepts and the problem-solving process of statistical reasoning that are based on real data and real-world contexts.
+
+---------------
+
+
+
+
+==== Mobilize Prime ====
+  * {{http://www.exploringcs.org/wp-content/uploads/2010/08/ExploringComputerScience-v5.0.pdf| ECS Unit 5: Computing and Data Analysis (page 191-262)}}
+  * {{:curriculum:mzp_focus_sheets_final_10.09.13.pdf| MZ Prime Focus Sheets}}
+  * {{:curriculum:mzp_ps_supplement_final_10.09.13.pdf|MZ Prime PS Supplement}}
+  * {{:curriculum:mzp_xml_supplement_final_10.09.13.pdf|MZ Prime XML Supplement}}
+  * {{:xml_supplement_resources.zip|MZ Prime XML Supplement Resources}}
+  * {{:ps_supplement_resources.zip|MZ Prime PS Supplement Resources}}
+
+--------------
+
+
+
+==== Professional Development Materials ====
+
+Professional Development Material can be found at [[http://wiki.mobilizingcs.org/pd]].

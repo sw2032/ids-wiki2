@@ -1,0 +1,55 @@
+===== Roster Formatting Process =====
+
+**This page provides you with the process to separate your students’ first and last names from a single column in the csv file you downloaded into two columns.**
+
+**If you prefer written instructions with screenshots, follow the instructions below.**
+
+**//If you prefer to see a step-by-step video showing you how to separate first and last names into two columns, click// [[https://www.youtube.com/watch?v=dtWF291XwzE|HERE]]** 
+
+
+
+
+====Step 1:Open your Class Roster in Excel ====
+
+Once you’ve downloaded your Class Roster, open the CSV file in Excel.
+
+{{ :namespace:formatroster01.png?direct&700 |}}
+
+====Step 2: Split Columns====
+
+Insert a column to the right of your Student Name column
+
+{{ :undefined:formatroster02.png?direct&700 |}}
+
+Click on the first student name in the column.
+  * If using an Apple computer, use shift + command + ⬇ to highlight entire column of names
+  * If using a PC computer, use shift + control + ⬇ to highlight entire column of names.
+
+{{ :undefined:formatroster03.png?direct&700 |}}
+
+Click on Data and select Text to Columns. Make sure to select Delimited.
+
+{{ :undefined:formatroster04.png?direct&700 |}}
+
+Click Next > and select Comma while deselecting all other Delimiters.
+
+{{ :undefined:formatroster05.png?direct&700 |}}
+
+Click Next > and check to make sure your columns are set up properly in the preview before clicking Finish.
+
+{{ :undefined:formatroster06.png?direct&700 |}}
+
+====Step 3: Rename Columns====
+
+Click on the header of each column and rename per type of name. For example, if there are first names in the column, rename header to first_name.
+
+{{ :undefined:formatroster07.png?direct&700 |}}
+
+====Step 4: Save to your Computer for Easy Upload====
+
+Once you’ve formatted your roster, save your Class Roster as a CSV file to your computer while being mindful of where it is being saved. Now go back to the [[https://ids-wiki.mobilizingcs.org/app/web/teacher|Class Setup Page.]] and proceed to Step 2.
+
+{{ :undefined:formatroster08.png?direct&700 |}}
+
+
+

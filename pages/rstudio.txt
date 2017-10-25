@@ -1,0 +1,66 @@
+===== RStudio® =====
+==== What is RStudio®? ====
+For this deployment of Mobilize, we're going to be using the tool [[http://www.rstudio.com/|RStudio®]]. RStudio® is an "Interactive Development Environment" (or IDE for short) that supports R programming. For more on IDEs, check out this [[wp>Integrated_development_environment|Wikipedia article]]. Basically,  RStudio® makes it easier to keep track of files, type code, view images, and many other handy things. 
+==== What is R? ====
+[[http://www.r-project.org/|R]] is a statistical programming language that is free and open source. It's used by more than 250,000 people worldwide, and if you want to read more about it, check out this [[http://www.nytimes.com/2009/01/07/technology/business-computing/07program.html|New York Times article from 2009]]. 
+
+Everything that we're doing in the curriculum could be completed using just the R language, but we're going to focus specifically on R within RStudio®.
+
+==== About This Guide ====
+The preliminary sections in this guide will be to get you started in RStudio®– how open the program, load in data, and understand the various panes that divide the page. Then, topics will be covered in roughly the order they are mentioned in the curriculum.\\ 
+
+The majority of this guide will be largely concerned with short code snippets, showing code in a format like this
+<code r>
+mean(labike$bike_count_pm)
+</code>
+<code r>
+## [1] 132.9
+</code>
+When you see this type of formatting, you can know that the top section was run in the Console (see [[rstudio:panes|Panes in RStudio]] for more information about the Console), and the results are shown on the lines designated by ##. Most times that something is shown with button clicking in the RStudio® interface, corresponding R code will be shown in this same format.
+
+The data used in the examples shown on this wiki are from the Exploring Computer Science Unit 5 materials (available [[http://www.exploringcs.org/wp-content/uploads/2010/08/Unit-5-data-files.zip|here]]). Most examples use the ''labike.csv'' file, the ''cdc.rda'' file or the ''CATwitter.robj'' file. 
+==== Opening RStudio® ====
+While RStudio® can be run as a desktop application, we'll be using it exclusively in the browser. This means that you can access your work from any computer connected to the internet, and all your code and data will be available for you 24/7. To get to RStudio®, open a web browser (like Firefox or Google Chrome) and navigate to [[https://ids.mobilizingcs.org/#rstudio/]]. You will be prompted for your username and password on a page like this,
+{{ :rstudio:rstudiologin.png?direct&700 |RStudio login}}
+
+If you don't know your username or password, please visit our [[:contact|contact page]] for support options.
+
+Once you have logged in, you should see something like this:
+
+{{ :rstudio:rstudiofirstscreen.png?direct&700 |}}
+
+If you have successfully logged in to RStudio, you can start doing some data analysis! 
+
+
+
+==== What do you want to do? ====
+  * For an explanation of the panes in RStudio®, see [[rstudio:Panes]].
+
+  * Learn how to [[rstudio:open_data|open data]] of different types (like .csv, .rda, .robj files).
+
+  * Start [[rstudio:Examining_Data|examining data]]. Learn about the [[rstudio:Examining_Data#The_dollar_sign|dollar sign]] and [[rstudio:Examining_Data#Square_brackets|square brackets]], make [[rstudio:Examining_Data#Summaries_of_data|summaries]] (or "frequency tables"), find the [[rstudio:Examining_Data#Length_and_dimension|length and dimension]] of a variable or dataset, create [[rstudio:Examining_Data#Tables|tables]] (or "contingency tables"), and [[rstudio:Examining_Data#Determining_data_type|determine the data type]] for a dataset or variable. 
+
+  * [[rstudio:Finding_things_out|Find things out about data]], like how to [[rstudio:Finding_things_out#Sorting|sort]] data, and find [[rstudio:Finding_things_out#Descriptive_statistics|descriptive statistics]] (like mean, median, mode, max, min). 
+
+  * Learn how to [[rstudio:Putting_things_together|put things together]], using the [[rstudio:Putting_things_together#equals_sign|equals sign]], by [[rstudio:Putting_things_together#Creating_vectors|creating vectors]], using [[rstudio:Putting_things_together#column_and_row_binding|column- and row-binding]], or [[rstudio:Putting_things_together#transforming_data|transforming data]]. 
+
+  * If you only care about a piece of the data, learn how to use the [[rstudio:Subset_data|subset]] command, how to [[rstudio:Subset_data#subsetting_with_text|subset with text]] or do [[rstudio:Make_maps#spatial_subsetting|spatial subsetting]]. 
+
+  * For geographic data, learn how to [[rstudio:Make_maps|make a map]], [[rstudio:Make_maps#zooming|zoom in]], [[rstudio:Make_maps#Spatial_subsetting|create a spatial subset]], or make a [[rstudio:Make_maps#bubble_chart|bubble chart]]. 
+
+  * To make plots, learn about the [[rstudio:plots|plot command]], as well as the specific ways to create ([[rstudio:plots#bar_plots|bar plots]], [[rstudio:plots#mosaic_plots|mosaic plots]], [[rstudio:plots#histograms]], and [[rstudio:plots#box_plots|box plots]]. If you want to change something about a plot, check out [[rstudio:plots#changing_things_about_plots|changing things about plots]] to learn how to change axis labels, add a title, change colors and symbols, rotate labels and more! If you want to use a plot in another document, learn how to [[rstudio:plots#Saving_plots|save a plot]]. 
+
+  * For text analysis, start by [[rstudio:Text#Initializaing_text|initializing text]] so R knows how to interpret it, then [[rstudio:Text#Looking_at_text_data|inspect text]] and [[rstudio:Text#Processing_text|process text]] to convert words to lower case, remove numbers, etc. To analyze your text, create a [[rstudio:Text#Bar_plot_of_words|bar plot]] or [[rstudio:Text#Word_cloud|word cloud]].
+
+  * Learn how to [[rstudio:Finding_Help|find Help]] and [[rstudio:Closing_RStudio|close RStudio®]], or see some [[rstudio:Tips_and_Tricks|Tips and Tricks]] or [[rstudio:Useful_Terms|Useful Terms]]. If you're stuck, check out the [[rstudio:FAQ|Frequently Asked Questions]] page.
+
+  * Get a one-page summary of relevant R commands from {{:rstudio:rsheet.pdf|R Cheat Sheet}}.  
+
+==== Video Tutorials ====
+There are also a number of video tutorials that can help you through some of the content on this wiki. They can be found, by topic here:
+  * [[http://youtu.be/0h2b3sO5DT8|Introduction to Rstudio®]]
+  * [[http://youtu.be/cFiTUg_B934|Plots]]
+  * [[http://youtu.be/e2XkA-_OovM|Map analysis]]
+  * [[http://youtu.be/kgu6a55X2JA|Text analysis]]
+
+All rights to RStudio® and Shiny™ are exclusive to RStudio, Inc.
